@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 (*
 
   Vertex Enumeration for Convex Polytopes
@@ -60,7 +62,7 @@ Unprotect[CrissCrossSolve]
 Unprotect[BlandSolve]
 Unprotect[Faces]
 Unprotect[Polyhedron3D]
-Unprotect[SubsetQ]
+Unprotect[VESubsetQ]
 Unprotect[AdjacentQ]
 Unprotect[EdgesOfPolyhedron]
 Unprotect[MaximalQ]
@@ -82,7 +84,7 @@ BlandSolve::usage="BlandSolve[c,m,b] solves the linear program  maximize c.x sub
 Faces::usage="Faces[list] returns a list of faces for the zero-variable list.  The kth face corresponds to kth inequality in x>=0, m.x<=b, for VertexEnumeration[m,b].";
 
 Polyhedron3D::usage="Polyhedron3D[ver_List,zerova_List] returns 3D graphic primitives for drawing a 3D polytope.  The two arguments correspond to the first two list given by VertexEnumeration[m,b].";
-SubsetQ::usage="SubsetQ[s,t] returns true if s is a subset of t."
+VESubsetQ::usage="VESubsetQ[s,t] returns true if s is a subset of t."
 
 AdjacentQ::usage="AdjacentQ[i_Integer,j_Integer,zerova_List] returns True if and only if the zeroset zerova[[i]] and the zeroset zerova[[j]] correspond to adjacent vertices (the intersection of zerova[[i]] and zerova[[j]] is contained in no other zerosets)."
 
@@ -106,10 +108,10 @@ VertexEnumeration::LpUnbounded = "linear program is unbounded."
 VertexEnumeration::Infeasible = "linear inequality system is infeasible."
 
 (* comments for private routine *)
-Pivot::usage="Pivot[mat,r,s,b,n] performs a pivot operation on mat with row:r and 
+VEPivot::usage="VEPivot[mat,r,s,b,n] performs a pivot operation on mat with row:r and 
 column:s and updates basis b and nonbasis n. Last 2 arguments are optional.";
 
-GetPivotSequence::usage="GetPivotSequence[startbv,startnbv,goalbv,goalnbv] gives a set of pivots (variable pairs) which transfers the start to the goal.";
+GetVEPivotSequence::usage="GetVEPivotSequence[startbv,startnbv,goalbv,goalnbv] gives a set of pivots (variable pairs) which transfers the start to the goal.";
 
 SortDict::usage="SortDict[mat,b,n] returns the new {mat,b,n} sorted by b and n reordered in ascending order.";
 
@@ -119,7 +121,7 @@ MakeSequence::usage="MakeSequence[dic_?MatrixQ,bv_?VectorQ,nbv_?VectorQ,bases_?M
 
 GetChangeBaseVariableNames::usage="GetChangeBaseVariableNames[startbv,startnbv,goalbv,goalnbv] gives a set of pivots (variable pairs) which transfers the start to the goal.";
 
-ExecPivotSequence::usage="ExecPivotSequence[dic,bv,nbv,sequence] performs a sequence of pivots to {dic,bv,nbv} according to the given sequence."
+ExecVEPivotSequence::usage="ExecVEPivotSequence[dic,bv,nbv,sequence] performs a sequence of pivots to {dic,bv,nbv} according to the given sequence."
 
 NonEmptyFaces::usage="NonEmptyFaces[list] returns a list of nonempty faces.";
 
@@ -389,7 +391,7 @@ CSearch[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,opts___Rule]:=
 				If[ j >= n, j = 1; ++i];
 			];
 			If[ i < m,
-				{dict,bv,nbv} = Pivot[dict,bv,nbv,i,j,m,n];
+				{dict,bv,nbv} = VEPivot[dict,bv,nbv,i,j,m,n];
 				If[opt1,
 					AppendTo[result,{Drop[Transpose[dict][[n]],-1],bv,nbv}];
 					Write[MonitoringFile,Last[result][[3]]];
@@ -405,7 +407,7 @@ CSearch[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,opts___Rule]:=
 				{i,j}={1,1},
 				{i,j}=CrissCrossSelect[dict,bv,nbv,m,n];
 				If[ (i < m && j < n),
-					{dict,bv,nbv}=Pivot[dict,bv,nbv,i,j,m,n];
+					{dict,bv,nbv}=VEPivot[dict,bv,nbv,i,j,m,n];
 					++j;
 					++dist;
 					If[ j >= n, j = 1; ++i]
@@ -445,7 +447,7 @@ BSearch[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,opts___Rule]:=
 				If[ j >= n, j = 1; ++i]
 			];
 			If[ i < m,
-				{dict,bv,nbv} = Pivot[dict,bv,nbv,i,j,m,n];
+				{dict,bv,nbv} = VEPivot[dict,bv,nbv,i,j,m,n];
 				bvposi = Flatten[Map[Position[bv,#] & ,Sort[bv]]];
 				nbvposi = Flatten[Map[Position[nbv,#] & ,Sort[nbv]]];
 				
@@ -461,13 +463,13 @@ BSearch[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,opts___Rule]:=
 						AppendTo[result,{Drop[Transpose[dict][[n]],-1],bv,nbv}];
 						Write[MonitoringFile,Last[result][[3]]];
 						AppendTo[distlist,dist];
-						dist = 1,
+						dist = 1;
 					];
 				];
 				{i,j}={1,1},
 				{i,j}=BlandSelect[dict,bv,nbv,bvposi,nbvposi];
 				If[ (i < m && j < n),
-					{dict,bv,nbv}=Pivot[dict,bv,nbv,i,j,m,n];
+					{dict,bv,nbv}=VEPivot[dict,bv,nbv,i,j,m,n];
 					bvposi = Flatten[Map[Position[bv,#] & ,Sort[bv]]];
 					nbvposi = Flatten[Map[Position[nbv,#] & ,Sort[nbv]]];
 					++j;
@@ -501,7 +503,7 @@ BlandSelectQ[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,i_Integer,j_Inte
 	Block[{dict,bv,nbv},
 		BlandFilter[origdict,origbv,orignbv,i,j,m,n,bvposi] &&
 		(
-		 {dict,bv,nbv}=Pivot[origdict,origbv,orignbv,i,j,m,n];
+		 {dict,bv,nbv}=VEPivot[origdict,origbv,orignbv,i,j,m,n];
 		 SameQ[{i,j},BlandSelect[dict,bv,nbv]]
 		)
 	]
@@ -538,7 +540,7 @@ Bland[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,m_Integer,n_Integer,opt
 		SimpleNegative := NegativeTest /. {opts} /. Options[Bland];
 		For[{i,j}=BlandSelect[dict,bv,nbv], (i < m && j < n),
 		    {i,j}=BlandSelect[dict,bv,nbv],
-		    {dict,bv,nbv}=Pivot[dict,bv,nbv,i,j,m,n]
+		    {dict,bv,nbv}=VEPivot[dict,bv,nbv,i,j,m,n]
 		];
 		{dict,bv,nbv}
 	]
@@ -584,7 +586,7 @@ CrissCrossSelectQ[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,i_Integer,j
 		{m,n}=Dimensions[origdict];
 		CrissCrossFilter[origdict,origbv,orignbv,i,j,m,n] &&
 		(
-		 {dict,bv,nbv}=Pivot[origdict,origbv,orignbv,i,j,m,n];
+		 {dict,bv,nbv}=VEPivot[origdict,origbv,orignbv,i,j,m,n];
 		 SameQ[{i,j},CrissCrossSelect[dict,bv,nbv,m,n]]
 		)
 	]
@@ -618,7 +620,7 @@ CrissCross[origdict_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,m_Integer,n_Intege
 		SimpleNegative := NegativeTest /. {opts} /. Options[CrissCross];
 		For[{i,j}=CrissCrossSelect[dict,bv,nbv,m,n],(i < m && j < n),
 			{i,j}=CrissCrossSelect[dict,bv,nbv,m,n],
-			{dict,bv,nbv}=Pivot[dict,bv,nbv,i,j,m,n]
+			{dict,bv,nbv}=VEPivot[dict,bv,nbv,i,j,m,n]
 		];
 		{dict,bv,nbv}
 	]
@@ -675,27 +677,27 @@ NegSmallest[list1_List,list2_List,list3_List]:=
 		If[SameQ[Infinity,val], {i,val}, {list2[[posi]],val}]
 	]
 
-Pivot[d_?MatrixQ,bv_?VectorQ,nbv_?VectorQ,i_Integer,j_Integer,m_Integer,n_Integer]:=
+VEPivot[d_?MatrixQ,bv_?VectorQ,nbv_?VectorQ,i_Integer,j_Integer,m_Integer,n_Integer]:=
 	Block[{tmpbv,tmpnbv},
 		{tmpbv,tmpnbv} = {bv,nbv};
 		{tmpbv[[i]],tmpnbv[[j]]}={tmpnbv[[j]],tmpbv[[i]]};
-		{Pivot[d,i,j,m,n],tmpbv,tmpnbv}
+		{VEPivot[d,i,j,m,n],tmpbv,tmpnbv}
 	]
 
-Pivot[d_?MatrixQ,bv_?VectorQ,nbv_?VectorQ,i_Integer,j_Integer]:=
+VEPivot[d_?MatrixQ,bv_?VectorQ,nbv_?VectorQ,i_Integer,j_Integer]:=
 	Block[{tmpbv,tmpnbv},
 		{tmpbv,tmpnbv} = {bv,nbv};
 		{tmpbv[[i]],tmpnbv[[j]]}={tmpnbv[[j]],tmpbv[[i]]};
-		{Pivot[d,i,j],tmpbv,tmpnbv}
+		{VEPivot[d,i,j],tmpbv,tmpnbv}
 	]
 
-Pivot[d_?MatrixQ,r_Integer,s_Integer]:=
+VEPivot[d_?MatrixQ,r_Integer,s_Integer]:=
 	Block[{m,n},
 		{m,n}=Dimensions[d];
-		Pivot[d,r,s,m,n]
+		VEPivot[d,r,s,m,n]
 	]
 
-Pivot[d_?MatrixQ,r_Integer,s_Integer,m_Integer,n_Integer]:=
+VEPivot[d_?MatrixQ,r_Integer,s_Integer,m_Integer,n_Integer]:=
   Block[{i,j},
 	Simplify[
 	  Table[
@@ -723,12 +725,12 @@ MakeSequence[origdic_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,bases_?MatrixQ]:=
 		If[{} == tmpsequence,tmpsequence,tmpsequence[[FirstElement[# &,Map[Apply[And,Map[Not[SimpleSameQ[0,origdic[[#[[1]],#[[2]]]]]] &,#]] &,tmpsequence]]]]]
 	]
 
-GetPivotSequence[startbv_?VectorQ,startnbv_?VectorQ,goalbv_?VectorQ,goalnbv_?VectorQ]:=
+GetVEPivotSequence[startbv_?VectorQ,startnbv_?VectorQ,goalbv_?VectorQ,goalnbv_?VectorQ]:=
 	Transpose[{Intersection[startbv,goalnbv],Intersection[startnbv,goalbv]}]
 
-ExecPivotSequence[origdic_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,sequence_?MatrixQ]:=
+ExecVEPivotSequence[origdic_?MatrixQ,origbv_?VectorQ,orignbv_?VectorQ,sequence_?MatrixQ]:=
 	Block[{dic = origdic, bv = origbv, nbv = orignbv, i},
-		Do[{dic,bv,nbv} = Pivot[dic,bv,nbv,sequence[[i,1]],sequence[[i,2]]],{i,Length[sequence]}];
+		Do[{dic,bv,nbv} = VEPivot[dic,bv,nbv,sequence[[i,1]],sequence[[i,2]]],{i,Length[sequence]}];
 		{dic,bv,nbv}
 	]
 
@@ -748,18 +750,18 @@ OptimalBasesEnumeration[mat_?MatrixQ,vec_?VectorQ,bv_?VectorQ,nbv_?VectorQ]:=
 		dic = Transpose[Append[Transpose[-mat],vec]];
 		AppendTo[dic,Append[Table[-1,{n}],0]];
 		output = Map[ Function[MakeSequence[dic,bv,nbv,GetChangeBaseVariableNames[bv,nbv,#[[3]],#[[2]]]]], tmp[[1]]];
-		output = {Map[Function[ExecPivotSequence[dic,bv,nbv,#]], output]};
+		output = {Map[Function[ExecVEPivotSequence[dic,bv,nbv,#]], output]};
 		AppendTo[output,  Father2Edge[Dlist2Father[tmp[[2]]]]];
 		output
 	]
 
-SubsetQ[s_List,t_List]:=
+VESubsetQ[s_List,t_List]:=
    Length[s]==Length[Intersection[s,t]];
 
 AdjacentQ[i_Integer,j_Integer,l_List]:=
     Block[{subface}, 
       subface=Intersection[l[[i]],l[[j]]];
-      Length[Select[l,SubsetQ[subface,#]&]]==2]
+      Length[Select[l,VESubsetQ[subface,#]&]]==2]
 
 
 EdgesOfPolyhedron[l_List]:=
@@ -775,7 +777,7 @@ EdgesOfPolyhedron[l_List]:=
 MaximalQ[i_Integer,l_List]:=
     Block[{candidate}, 
       candidate=l[[i]];
-      Length[Union[Select[l,SubsetQ[candidate,#]&]]]==1]
+      Length[Union[Select[l,VESubsetQ[candidate,#]&]]]==1]
 
 MaximalSets[l_List]:=
     Block[{i,maximals={}},
@@ -791,7 +793,7 @@ LinesOfArrangement[zerova_List]:=
          ],{i,p}
       ];zeros=MaximalSets[Union[zeros]];
       Do[AppendTo[lines,
-           Select[Range[p],SubsetQ[zeros[[i]],zerova[[#]]]&]
+           Select[Range[p],VESubsetQ[zeros[[i]],zerova[[#]]]&]
          ],{i,Length[zeros]}
       ];
       {lines,zeros} 
@@ -840,7 +842,7 @@ Protect[CrissCrossSolve]
 Protect[BlandSolve]
 Protect[Faces]
 Protect[Polyhedron3D]
-Protect[SubsetQ]
+Protect[VESubsetQ]
 Protect[AdjacentQ]
 Protect[EdgesOfPolyhedron]
 Protect[MaximalQ]
