@@ -1,80 +1,44 @@
-(***********************************************************************
+(* Content-type: application/mathematica *)
 
-                    Mathematica-Compatible Notebook
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
 
-This notebook can be used on any computer system with Mathematica 3.0,
-MathReader 3.0, or any compatible application. The data for the notebook 
-starts with the line of stars above.
+(* CreatedBy='%s' *)
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       131,          6]
+NotebookDataLength[    279091,      13395]
+NotebookOptionsPosition[    265418,      12962]
+NotebookOutlinePosition[    265893,      12983]
+CellTagsIndexPosition[    265850,      12980]
+WindowFrame->Normal*)
 
-To get the notebook into a Mathematica-compatible application, do one of 
-the following:
-
-* Save the data starting with the line of stars above into a file
-  with a name ending in .nb, then open the file inside the application;
-
-* Copy the data starting with the line of stars above to the
-  clipboard, then use the Paste menu command inside the application.
-
-Data for notebooks contains only printable 7-bit ASCII and can be
-sent directly in email or through ftp in text mode.  Newlines can be
-CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
-
-NOTE: If you modify the data for this notebook not in a Mathematica-
-compatible application, you must delete the line below containing the 
-word CacheID, otherwise Mathematica-compatible applications may try to 
-use invalid cache data.
-
-For more information on notebooks and Mathematica-compatible 
-applications, contact Wolfram Research:
-  web: http://www.wolfram.com
-  email: info@wolfram.com
-  phone: +1-217-398-0700 (U.S.)
-
-Notebook reader applications are available free of charge from 
-Wolfram Research.
-***********************************************************************)
-
-(*CacheID: 232*)
-
-
-(*NotebookFileLineBreakTest
-NotebookFileLineBreakTest*)
-(*NotebookOptionsPosition[    271843,      12892]*)
-(*NotebookOutlinePosition[    272925,      12929]*)
-(*  CellTagsIndexPosition[    272881,      12925]*)
-(*WindowFrame->Normal*)
-
-
-
+(* Beginning of Notebook Content *)
 Notebook[{
 
-
-Cell[CellGroupData[{Cell[TextData[{
-  StyleBox[
-  "Vertex Enumeration \nfor Convex Polyhedra and Hyperplane Arrangements\n",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["- ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSize->14],
-  StyleBox["Mathematica Package",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSize->14,
-    FontSlant->"Italic"],
-  StyleBox[" ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSize->14],
-  StyleBox[" -\nVersion 0.41 Beta (November 14, 1992)",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSize->14,
-    FontSlant->"Italic"]
+Cell[CellGroupData[{
+Cell[TextData[{
+ StyleBox["Vertex Enumeration \nfor Convex Polyhedra and Hyperplane \
+Arrangements\n",
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["- ",
+  FontSize->14,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["Mathematica Package",
+  FontSize->14,
+  FontSlant->"Italic",
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[" ",
+  FontSize->14,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[" -\nVersion 0.41 Beta (December 14, 1992)",
+  FontSize->14,
+  FontSlant->"Italic",
+  FontColor->RGBColor[0., 0., 0.]]
 }], "Title",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -1708,217 +1672,284 @@ stroke
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{264, 264},
-  ImageMargins->{{101, Inherited}, {Inherited, 6}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 
+  1.}},ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJztXVmIHMcZbs/09Nw9187Ozh7SSpuVJUvyEewkPuTbli3r8iHLjmTJkqVY
+si0fsmzjI5HtHA/Jk8mDwQRyQMhDAnnOQzAJgRAIgYAhEPISjENIYkIIgRAC
+m6mqv/6qrvmqplcrkxcJZqa2uvr/v++/qrq6Z7Tn2LlTJ88cO3f6iWOLO88e
+e/7U6SdeXLz7ubOjruJlUXTZEfFajER7JYr0m/x3VLzRH5fal9oXob1PfBRE
+jPVlR3GFo2301yLou5rP2Mut/UqY7PiZ6NhndcSio7fyzm/+KwUtcusabu0W
+rdg60YY1OkQQRi2ZDVJEgUUQGN0iMPst7OJEIWbaESb+Wgf6rgJ9e6w+bYt9
+liqpewacuAD6rvQpkFLuV2LvBwwGPGhVYh3c+/0KhkDEHOjbBvr2TlAlcSNh
+szkVIC5krAcAFyQW8bsIqhArFAxbc5qNVD24BlVX5GT1gF/VPBAxAH1bcrKy
+VclgQMmHkhQpMPnykBL7EGCAssQtKeKvhGvRIji6m48GVCEuSFWJha0HR3eJ
+98RV5R1eY2HlVavayUeLbMoDrlJTa8OqNoG+u/iMBASDzS/xYSwHlS4zuDtE
+S84gVb+qAxx3RR6OQrwD+pYYyK3carD6h5WCh0FYGB+gctQOqtrBrRZgdcCv
+tMInosrQAn1mWlbGWdFLzxv4QHcChgLbRFoWxX4K+taxFRNw9FpWPwXUk90P
+AhOk2cgpurERgjTLZ1TAUbNuGawOUodPjLlVAwqaoG+QjTrn6HYYZA6kRwAk
+uS4ri646EItUTbEqFLv97NGxFNOQDvohTfOJSD2Caew6FQTc5NbiBUBSyRHb
+ycEOLPjgpnwUJaJZFZviuuSH9iiAZgwes91Q0KLQl30lX2laYMnLANIjfkim
+lKCERuAqDB3N10OWt3l1QJaytnGuItCEIsdVRJd3NpddW/1APg+ALLPYhPOt
+xJyRKhPS24GqR/2q5Eop9YUjmu1Mxb56gqoC+yDhuir7UA1Fy9Qqs7p2giqT
+CrE7/YWK0xwrMNNug1ubGPBhS1WHq5U85Ex/sg8tCFCRnmXA43WilU0nOeqQ
+gnGIjSsN2cMCuj4QpryUeZyxX8niexgEzDyLKPriMMfyocBKTZE1i6zrsn2O
+3w/5waEgcnM5DDO2+xhGnUlXuPVpWLYQSDkcpVJeaGjmNMsN7yy/jY8a1I8p
+XI8B46FL3VKw1hjfWVnAiVvwZeKWrF0dyx3+ZBAWUMZmQxFlzDIfTSdglbLN
+4gFlhxerTERT7WJORLQo3sjj2gASOfgIMF83awx06YRyImZIZpVV5BqCVuey
+q3cxwcFZOeu9GiOsZFsFPtd4WbZM9Z/2Yz0KsPYDpSIMspplWcgCHy/iSRa2
+HGWW9jMA9pFPAraxKBpX56MO3FKWqLn+HSc6dyFUJq8Ua5xdJVZeZJBmTWVm
+YglXTqnr/JAezyZ8jrWzuag0kVgO2MNYcoZHVbKWlEcXAMijlt3Kbp3IWGYs
+yzJxiqpXwkDQZVPBLeqZEAksLhF0Y60atwz7Mpd3NKmWOLFQufVefnnXiFaf
+APi4gnkMRKYU0chGl8l6NAOYgDCpgizc4qNo/TwJurZwALqp9hJmNQsdXZyZ
+i1k0e5h8RwF4EQC3s/Eas9O9gJFSVNIMMbQoQFLQRorCHB0H0NEyz+S3c1Hh
+xVDIVraE+OhxdD6qUShzhmunUA+mpozbluhCm/boDFM20Y6mDU4aoAdEmIBA
+tUSKTdiMclzenUgDDq0NlcmiJ1ZjOWSRMhcrFBpuoY4ie9GbYzFysTiZKang
+ROE71jIDlQmzWjdZhyxUWwMtsyN3wqJQWInGLkDRwjN8r8T4xsM8vFDIu/wy
+YFOLxwngivpaGaWcFOjuHbqka3JmG2sEEHrdG4Zklmo5SofZ0Dc3wU8qSCdz
+QkKRJP0olxdoswEBMe5wrjxNrtmn6Vw7sXasxo8mltA+hETY5Qz8JCFJzs7l
+rslANLGWmYQpMTXvGQIZefkLOWEaNxRYVZu9XIcW0eeaiQRlsPfGjGPXVQJO
+sulpSk+ZgeRI4z6f++QFqC9mbYMcJ6tWhY+WgAsnXNUJPAoVYZwMDrmhEYRp
+YqnINpTWrGYpogka3WNcJWCz5m/lhFljayZ8bjUIs8fjTlngzPIWFafw0wPG
+pGYLEi2b0D1gCrdTwEDmJuAGX+qYCyDviu+ClS5m+bXYK94rAXMf4LSlwCxh
+isyllY0mY3d0bYQWu+S604ABWpyaXUK0a2q8ZtYWSIox9FOrU4/8Z+p8FbTM
+4g+VzSYE4sWN1KdZzs6VebgyodmQPP6UbwWWA1IrC8nNQ/VXRJdLJtGRNnn0
+aT8kxApBGrIwWV3aHLZmY2ACWaH7KQtIwWdUpN7Z7TITb9un3pasXUPqnwZ2
+QCtfBETX4EbEe3Kjpaf2hZzWxnftzH2PZ1aHYBH0xQABbec1hHekPd6riBA5
+bw0x87q0Volt6biIYuUZgBCZeVGJvVNUSZkuQnNsaxavOY4Us7l5xq8IzdZz
+rEhSXBCt0ZCROjlMqE2x8llW6eRQCWLxLtvMZvASUN5ylNOneSwJ3bOkcFDq
+S7Y2DdS6G3G5V2vR1hqZRyIl2GdtHdmL0Ch7tTIku2wGitryvZSxLbUtXWcs
+Xeim2gzFEWmSn1rrFqC1g426ABWaWY3sPdR1UkiW0pEJuw4z25TzLM22ornd
+YhluKC0/rhLRCqk00fqcUvksc7NTOJ+iHigE5j5/0dUyozJ0XPYVQPZUgMQQ
+4u9Zqa5NluTU1g9o67MGUvk2dyAy27ziQR59TUl8iyVWckqclu8JShjx+RUl
+902WWwVyt/vkFiTA2BX6ZSX0fFDoVSSUBEqhAx/9t5XEL3HYhyTaMGcc+uez
+SN9Ucr/IcmtA7tUAqSvXscB5JfeNoNxrAN6hz6wRsY+i18VHKSiUHukIUn9D
+SXuNpdV9JtX3AEXnd376sYYzF5b/upL/alD+lSy/JEQ7xpgFE+l5Gv+aEv8K
+i1eFVic1tM1W8U75ONJG+3XA4KTwVaXjZfFB+9yeeqcnmTsJgeCS0Lv4+6vf
++K186RCabL5XLN2JT/dm1h2v/PAnH9IdYqG2lFFLqkfHjr/2QYFp+7W/rLS/
+xNqbQPsym7MmtJMbR7rIkiNd8iUNHFFse9z5klJ4jk2NFC4x3aZQODqqbSqU
+KtVJRjWpZ+0eR59T2l9k7SnQvoG1t0i7ZWLSXrS1K3NbMR2xEbyGP6uQnA0i
+Wc+GbwM7lAGSooMkR2l8QSF5gUPASTDkoAU2UQ+YCAErcUTOBKLjeYVFflSU
+B8aVz7HyKWCVqk+5Y5VBIExoWn8uCGPIzqkIGHTXYVx54jD3OuKMtX4pA0eg
+CBmI96aKnx//6APHETUAp+yzhR+YfdVQVdE4jmSKzTEHkNQBkgobZhAICfv6
+0Ku8h2qzQIGwICdVgFXgyocg2lf2ElUHoOowquLK7/7wezo6AiRBzeaEVnPM
+5HUT7cxJaDUfppTdFANMyFxNHyan4LkLUAcd7XyeDqJrssXKa0DXAM7sB0KM
+tspPMbQugFZnaNWc0NIc0ITh+oE4o1syT3KcOTUBGbFiTdfjSOcB0hZA2vQa
+0etidT9embO+ItNyHF1ize0Xjq7FSeE69rzlWHpO4GQQUIkBpRMAfffdX0kX
+dACglMxFpjKOHbsaPs8I6J9+2uwEx5/jZBSOBWtp4AvHmFET8q4XuBq6ed8v
+NNCpQFDSo1DS3Q01GAGU9vbXPcIkPkeDxftkt6c0nWuw4pW1tjc46ZHJ4w7o
+mEEz8XyQ45yQm1ZgEOQR3dF7gc3siV568vcYI+4LxPLQ9IT5hHwOQbYDZUn3
+CZBFep+8vzMe0eorPipQ6r6IpjktH5NkDeaO2dy9QFQfsjA33GIhwAugCO4Q
+wK3khNsAcEuO4SMN3B/c9B2koxD7CLFEPQOwz4DIrl4Adh00ZRA03UCM07fP
+jvgCpc2BMpvT8rU1WL7CgdLNGej0RWKZqnIZ3gFBg6DPAOh18U41fRxwHQCu
+AnN3AjFOX6k9DOHqOMkLt0ElRvR98+u/lK8ogsZG2OuOsb3BTV+DP8TBja6L
+pOx5gHwAkDcB8tGLFgH+5a4d6XUyfbTjfZ6CQpGufqhCVUYvC9Lx0X9+LUcs
+AD7TIGNTK+aJy+gv9W7ngffyArmG7CP4UQZ0ciYF/XiKLErpiuamL8/++u+f
+y1CLVuEwRDAGBNFlJiLYcAiSA0OpQz9t8kiWFK1FhCMFL/Ga5DibVwvwKnEo
+IndVQSg2dShqd+14X38BdPwmBrW1kw5yKXDisUG3SyKLmuU65DnEsA0YloHn
+9LaN4ETcoOeabmgq79Hj/X669JtHsgDSVs2Qt1RHvJwaOAfo9QG9DqBXYQei
+/ZcqIJXK9yRDygrL0L3QvYrXgSwvawJS3NQ7+W4iQ7u2dAHDGnBgJbCrYnNt
+4WDd8T7tuHIGFjM89yieD3H6Rf7bABSq7Ni8tG3HItp1duwksjoz2z6yUa6b
++bsV6Qd9pKscw+WcMTwFqPYA1SbwcJLTw4h0Mevhcar3Karyp5baKx6HJjkd
+ilhOAZYpOxRtWZcBt46PG3KoHLZLEbufE9TxYZl9WM3pwx7I0j5g1wY+jHPy
+7AKesePD7ELgXsVzf5CnU5cQY7T6RIynAeMO+xPdpUlAgvZ8PJE/peR7FE85
+n3RULRgP1GrOQO2BQEXEesCVBTBjBl2pF3IjcolbcEetnYrYXiZmIrORMzK7
+gM4A0JkK0PF5TNNBHivpPIzM5pshdrdFDEVmCTiwntOBiPEMYNznyCwG7k/Z
+kTnlrTRm8UP/MjkpjumF+B2K+R52aQKo5nVuByThEFAd0Orccq5Kk3FfIo4F
+y5eaR5FZpoDl7RZLejxzyDdw8xUY5EbEbYbdGJm7jr5I7dNujsXOSkDFy64x
+TcDtNsVtty92i8Chac7Y7QDSs4D0rJOtkQykcb7TrjflnLbCv7AWZofWNwV2
+ZCdnkLYBpznAaY4diWaFgcVEY60Cj9UBp1sVp/s4Gotg4mvndFFeOussF+mi
+Ek9wkQZcZxfV/HR2mQDET1P2cjqoBarIPGC0HjAqepPM9Am0TeCqKuB2i8UN
+h18kdujzlRDkKkRsERArgBjsA1e12FUVP517OfJGIaDpqEPspUlx1wJkFnKS
+QV6aAmTawEtlQOtmi5ZbAsWRAsmxS2A7ZzSmgOc6wHPDBKeFeHbZaYjdDsXu
+HhSDyoX52KGQROzWA3Ybad/JYqdXlTAM7d/c1s9Jxn5uOzkg9axH22SSBpqi
+kauaoHAsAjJLgIyepZF7ptk9JUDhJotCSyXeuD/SNfgDUfiUtYKyKCD0M4y+
+6Ed/N6PXk5jtgKavJshv4m4E+JadbFD1f7wOz4IMLwCYN1owZQ7UgZHRMnUo
+3vVyTHRqial8jzlY6IWCfxIZLXKeLe0wIiPfxegbOdHb9+MI/MjHEDiaSDbZ
+a1GaNcb2XzT6BZJrARefhP1Oxp4C7DWAfeCz/AATQIvpy5lAFyBe79pbH7je
+wiw3rls5Mfd9mOcxZnQhvtmKFrSjqUVucEJf/HWDAn4HA+8A4BWQjX0QKBsx
+ZrSXtwVgTgHmIxa+hnKLH59t2J7PsMsYJLonsEqQtzNI/SUPu6QhkF1gxG3i
+XXY1AaQrAKQGgHTUgiTvYdvzo7t1aUPq+Ox2FeOqrR3XbYxrGpgK4WoDU13H
+kMoA0lYAqT4BknzSaQaYqgQgpWyqGxlIvHYgtzKQIQCCbgylwDY3MyRrfSJw
+bAdoqgDN4xYa+ZTfHEBTBGgabBZZDmXrytUpvYWVzgOlBaC07gvbuxgDIl7x
+Y7iZMayTHSUbA99UbQDT72KVyPNloPKYpVI+270+oLLmo7qb9aJsTPx6d7Be
+PUVovazPoWj+DxI9+Wymx/TyqJIPkm8EqipM7QAdpec3zNzssCr5Vd3EqpZI
+mK4xgk8ZsDrIrDYBVjFQddxSJW+VLlusdGzGzMr85O0y4FL0K7iRFWwCCgq+
+iDA/vroECK1CX2LP/Xbb/FaUfcFGjLQ2/cTwDSx1s2gVAWL981m23xdJsoUd
+Spa6tzj2EX+ZH55YtK5iLDEk5XqW8i6fsY7OsJU7Z0hx7/EZC7yEpGe4P8eD
+vuWwi2RZzXpGjDhpnSipfBuYxd4C1eajXyH6LJ/4PYY1nDBcDvo+twb+4Z/h
+QT8AfPr+E/8Ihvf8wz8EpDv+4R8xrLZ/0J8AhNQ//M9geB0MJ4f9BQyv+of/
+DRAs+4d/DKQn/uF/B8Nj//B/gOEF//B/yo/YHi5e9I2KfznCxF+UDVLK0Uvt
+S+1L7Uvt/287uux/dnF+jQ==\
+\>"],ImageRangeCache->{{{0, 349}, {349, 0}} -> {-0.0250058, -0.0250058, \
+0.00300863, 0.00300863}}],
 
-Cell[TextData[
-"Komei Fukuda and Ichiro Mizukoshi\nGraduate School of Systems Management\n\
-University of Tsukuba, Tokyo\n3-29-1 Otsuka, Bunkyo-ku\nTokyo 112, Japan\n\n\
-+81-3-3942-6876\nfukuda@gssm.otsuka.tsukuba.ac.jp\n\
-mizukosi@gssm.otsuka.tsukuba.ac.jp\n"], "Subsubtitle",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+Komei Fukuda and Ichiro Mizukoshi
+Graduate School of Systems Management
+University of Tsukuba, Tokyo
+3-29-1 Otsuka, Bunkyo-ku
+Tokyo 112, Japan
 
-Cell[CellGroupData[{Cell[TextData[{
-  StyleBox["The package \"VertexEnumeration\" contains ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["Mathematica",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  " implementations of Avis-Fukuda algorithms for enumerating all vertices of \
-a convex polytope given by a system of linear inequalities, and for \
-enumerating all points (0-dimensional faces) of an arrangement of hyperplanes \
-given similarly. ",
-    Evaluatable->False,
-    AspectRatioFixed->False]
-}], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
++81-3-3942-6876
+fukuda@gssm.otsuka.tsukuba.ac.jp
+mizukosi@gssm.otsuka.tsukuba.ac.jp
+\
+\>", "Subsubtitle",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"This implementation is  quite faithful with the original description of the \
-original algorithms. [1].  "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
-
-Cell[TextData[{
-  StyleBox[
-  "The core of this implementation consists of two functions, for a given  \
-s*d  matrix  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["m",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  and s-vector  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["b",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[" :  \n\n   (1)  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["VertexEnumeration[m, b] ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  " \n             -  for computing all vertices of the polyhedron:\n         \
-        ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["P={ x :  x >= 0,  m. x  <=  b }",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[" and\n  \n   (2)  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["PointEnumeration[m,b]\n",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "             -  for computing all points of the arrangements\n             \
-    of  hyperplanes ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" h_i ,  i= 1,2,...,d+s, ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  \n                 where   \n                      ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["h_j  = { x : x_j= 0 }",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  for ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["j=1,....,d",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[",  and\n                     ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" h_(d+i) = { x : m[[i]].x = b_i}",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  for ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["i=1,...,s",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  ".                \n  \nIn particular, these implementions can deal , in \
-principle,  with any rational or floating-point real input with unlimited \
-sizes  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["s,  d",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  ".   Moreover, with some limitations, irrational input handled.  ",
-    Evaluatable->False,
-    AspectRatioFixed->False]
-}], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
 Cell[TextData[{
-  StyleBox[
-  "As a drawback,  the actual time and space complexity is higher than it was \
-originally stated in [1].  This is partly due to the way ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["Mathematica",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "  is implemented, and also due to our intention to make the program \
-simple.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["The package \"VertexEnumeration\" contains ",
+  FontFamily->"Times"],
+ StyleBox["Mathematica",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" implementations of Avis-Fukuda algorithms for enumerating all \
+vertices of a convex polytope given by a system of linear inequalities, and \
+for enumerating all points (0-dimensional faces) of an arrangement of \
+hyperplanes given similarly. ",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
+
+Cell["\<\
+This implementation is  quite faithful with the original description of the \
+original algorithms. [1].  \
+\>", "Text",
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox["Incorporating with the standard package ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["Combinatorica",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "   [2] (which is not standard for Version1.2 but available via anonymous \
-FTP from cs.sunysb.edu), one can analyze graph structures associated with \
-convex polytopes and arrangements.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["The core of this implementation consists of two functions, for a \
+given  s*d  matrix  ",
+  FontFamily->"Times"],
+ StyleBox["m",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  and s-vector  ",
+  FontFamily->"Times"],
+ StyleBox["b",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" :  \n\n   (1)  ",
+  FontFamily->"Times"],
+ StyleBox["VertexEnumeration[m, b] ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" \n             -  for computing all vertices of the polyhedron:\n \
+                ",
+  FontFamily->"Times"],
+ StyleBox["P={ x :  x >= 0,  m. x  <=  b }",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" and\n  \n   (2)  ",
+  FontFamily->"Times"],
+ StyleBox["PointEnumeration[m,b]\n",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["             -  for computing all points of the arrangements\n     \
+            of  hyperplanes ",
+  FontFamily->"Times"],
+ StyleBox[" h_i ,  i= 1,2,...,d+s, ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  \n                 where   \n                      ",
+  FontFamily->"Times"],
+ StyleBox["h_j  = { x : x_j= 0 }",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  for ",
+  FontFamily->"Times"],
+ StyleBox["j=1,....,d",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[",  and\n                     ",
+  FontFamily->"Times"],
+ StyleBox[" h_(d+i) = { x : m[[i]].x = b_i}",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  for ",
+  FontFamily->"Times"],
+ StyleBox["i=1,...,s",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[".                \n  \nIn particular, these implementions can deal \
+, in principle,  with any rational or floating-point real input with \
+unlimited sizes  ",
+  FontFamily->"Times"],
+ StyleBox["s,  d",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[".   Moreover, with some limitations, irrational input handled.  ",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
-
-Cell[TextData[
-"\n[1] D. Avis and K. Fukuda, 'A pivoting algorithm for convex hulls and \
-vertex enumeration of arrangements and polyhedra,'   Proceedings of the 7th \
-ACM Symposium on Computational Geometry, North Conway, New Hampshire, 1991, \
-98-104.  The full paper is to appear in Discrete and Computational Geometry.\n\
-\n[2] S. S. Skiena, 'Implementing Discrete Mathematics: Combinatorics and \
-Graph Theory with Mathematica,' Addison-Wesley, Reading MA, 1990. "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]],
-
-Cell[TextData["<<VertexEnum.m;"], "Input",
-  InitializationCell->True,
-  AspectRatioFixed->False],
-
-Cell[TextData["Off[General::spell];  Off[General::spell1];   "], "Input",
-  InitializationCell->True,
-  AspectRatioFixed->True],
-
-Cell[CellGroupData[{Cell[TextData["Convex Polyhedra and Linear Inequalities"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox[
-  "3-dimensional convex polyhedra are geometrical objects which are easily \
-understood by drawings.  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["Mathematica",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "  can draw some well known polyhedra, such as Platonic Solids using the \
-package \"Polyhedra.m\":",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["As a drawback,  the actual time and space complexity is higher \
+than it was originally stated in [1].  This is partly due to the way ",
+  FontFamily->"Times"],
+ StyleBox["Mathematica",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  is implemented, and also due to our intention to make the \
+program simple.",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
+
+Cell[TextData[{
+ StyleBox["Incorporating with the standard package ",
+  FontFamily->"Times"],
+ StyleBox["Combinatorica",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["   [2] (which is not standard for Version1.2 but available via \
+anonymous FTP from cs.sunysb.edu), one can analyze graph structures \
+associated with convex polytopes and arrangements.",
+  FontFamily->"Times"]
+}], "Text",
+ AspectRatioFixed->False],
+
+Cell["\<\
+
+[1] D. Avis and K. Fukuda, 'A pivoting algorithm for convex hulls and vertex \
+enumeration of arrangements and polyhedra,'   Proceedings of the 7th ACM \
+Symposium on Computational Geometry, North Conway, New Hampshire, 1991, \
+98-104.  The full paper is to appear in Discrete and Computational Geometry.
+
+[2] S. S. Skiena, 'Implementing Discrete Mathematics: Combinatorics and Graph \
+Theory with Mathematica,' Addison-Wesley, Reading MA, 1990. \
+\>", "Text",
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Open  ]],
+
+Cell["<<VertexEnum.m;", "Input",
+ InitializationCell->True,
+ AspectRatioFixed->False],
+
+Cell["Off[General::spell];  Off[General::spell1];   ", "Input",
+ InitializationCell->True],
+
+Cell[CellGroupData[{
+
+Cell["Convex Polyhedra and Linear Inequalities", "Section",
+ AspectRatioFixed->False],
+
+Cell[TextData[{
+ StyleBox["3-dimensional convex polyhedra are geometrical objects which are \
+easily understood by drawings.  ",
+  FontFamily->"Times"],
+ StyleBox["Mathematica",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  can draw some well known polyhedra, such as Platonic Solids \
+using the package \"Polyhedra.m\":",
+  FontFamily->"Times"]
+}], "Text",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -2354,63 +2385,45 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{214, 214},
-  ImageMargins->{{37, Inherited}, {Inherited, 6}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[TextData["However,  we cannot draw general convex polyhedra. "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["However,  we cannot draw general convex polyhedra. ", "Text",
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox[
-  "In general, a convex polyhedron is defined as the set of solutions to a \
-system of linear inequalities:\n\n(1)                ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["m. x <= b  ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["\n\nwhere   ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["m",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["   is a real  s*d  matrix and ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["b",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "   is a real s-vector.   3-dimesional polyhera can be represented by such \
-systems (1) with  d=3.   For example, the dodecahedon above is given by a \
-system with s=12 and d=3.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["In general, a convex polyhedron is defined as the set of solutions \
+to a system of linear inequalities:\n\n(1)                ",
+  FontFamily->"Times"],
+ StyleBox["m. x <= b  ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["\n\nwhere   ",
+  FontFamily->"Times"],
+ StyleBox["m",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["   is a real  s*d  matrix and ",
+  FontFamily->"Times"],
+ StyleBox["b",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["   is a real s-vector.   3-dimesional polyhera can be represented \
+by such systems (1) with  d=3.   For example, the dodecahedon above is given \
+by a system with s=12 and d=3.",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox[
-  "The following complex polyhedron is given by a system \n(1) with a \
+ StyleBox["The following complex polyhedron is given by a system \n(1) with a \
 randomly generated matrix  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["m.",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"]
+  FontFamily->"Times"],
+ StyleBox["m.",
+  FontFamily->"Times",
+  FontSlant->"Italic"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -5010,110 +5023,111 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{214, 214},
-  ImageMargins->{{39, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
 Cell[TextData[{
-  StyleBox[
-  "In order to draw such a polyhedron, one must compute all vertices (exremal \
-points) and all edges (adjacencies).  The vertex enumeration package, in \
-fact, computes these for a system of linear inequalities\n\n(2)               \
- ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["m. x <= b   and    x >=0",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["\n\nwhere a matrix ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" m",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  and  a vector",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" b   ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "are  given.   The enumeration of vertices for  a  system  of form (1)  can \
-be easily reduced to that for a system of form (2). ",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["In order to draw such a polyhedron, one must compute all vertices \
+(exremal points) and all edges (adjacencies).  The vertex enumeration \
+package, in fact, computes these for a system of linear inequalities\n\n(2)   \
+             ",
+  FontFamily->"Times"],
+ StyleBox["m. x <= b   and    x >=0",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["\n\nwhere a matrix ",
+  FontFamily->"Times"],
+ StyleBox[" m",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  and  a vector",
+  FontFamily->"Times"],
+ StyleBox[" b   ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["are  given.   The enumeration of vertices for  a  system  of form \
+(1)  can be easily reduced to that for a system of form (2). ",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Very importantly, many fundamental problems can be reduced to the vertex \
-enumeration.   Some of them are the computations of\n    (a) the convex hull \
-of s-points in d-dimensional space,\n    (b) d-dimensional Voronoi diagrams \
-and Delaunay\n          triangulations,\n    (c) optimal solutions to concave \
-programming\n         problems.\nWe shall explain the use of this package \
-through some of these applications.\n "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+Cell["\<\
+Very importantly, many fundamental problems can be reduced to the vertex \
+enumeration.   Some of them are the computations of
+    (a) the convex hull of s-points in d-dimensional space,
+    (b) d-dimensional Voronoi diagrams and Delaunay
+          triangulations,
+    (c) optimal solutions to concave programming
+         problems.
+We shall explain the use of this package through some of these applications.
+ \
+\>", "Text",
+ AspectRatioFixed->False]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData["Enumeration of Vertices"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["3-dimensional Convex Polyhedra"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["Enumeration of Vertices", "Section",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Let us start with a simple example.    We shall generate a small random \
-matrix  m  of  size * dim."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["size=3;    dim=3;"], "Input",
-  AspectRatioFixed->False],
+Cell["3-dimensional Convex Polyhedra", "Subsection",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["m=Table[Table[Random[Integer,{1,4}],{dim}],{size}]"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+Let us start with a simple example.    We shall generate a small random \
+matrix  m  of  size * dim.\
+\>", "Text",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["size=3;    dim=3;", "Input",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["m=Table[Table[Random[Integer,{1,4}],{dim}],{size}]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{3, 3, 2}, {4, 4, 4}, {1, 4, 2}}\
-\>", 
-"\<\
+\>", "\<\
 {{3, 3, 2}, {4, 4, 4}, {1, 4, 2}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData["Let b be the vector of row-sums."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["Let b be the vector of row-sums.", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["b=Table[Sum[m[[i,j]],{j,dim}],{i,size}]\n"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+b=Table[Sum[m[[i,j]],{j,dim}],{i,size}]
+\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {8, 12, 7}\
 \>", "\<\
 {8, 12, 7}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"Now we try to identify the shape of the convex polyhedron by using the \
-vertex enumeration package.  (It will take about 1 minute by SE/30.)"], "Text",\
+Cell["\<\
+Now we try to identify the shape of the convex polyhedron by using the vertex \
+enumeration package.  (It will take about 1 minute by SE/30.)\
+\>", "Text",
+ AspectRatioFixed->False],
 
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["vlist=VertexEnumeration[m,b]"], "Input",
-  AspectRatioFixed->False],
+Cell["vlist=VertexEnumeration[m,b]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{{0, 0, 0}, {8/3, 0, 0}, {2, 0, 1}, {0, 0, 3}, 
@@ -5134,92 +5148,73 @@ Cell[OutputFormData["\<\
  
    {1, 6, 3}, {4, 6, 3}, {4, 6, 5}, {1, 6, 5}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
 Cell[TextData[{
-  StyleBox["The first part ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["vlist[[1]]",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "   of the output is a list of all vertices, and  the second part ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["vlist[[2]] ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  " is the list of \"active-variable\" sets, indicating which inequalities \
-are satisfied with equalities at each vertex.   More precisely, for each \
-vertex  v, the ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["active variable set",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  is  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["Active(v)={j: h_j(v)=0}",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[" , where\n \n              ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["h_j  = { x : x_j= 0 }",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  for ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["j=1,....,d",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[",  and\n              ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["h_(d+i) = { x : m[[i]].x = b_i}",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  for ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["i=1,...,s",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[".\n                ",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["The first part ",
+  FontFamily->"Times"],
+ StyleBox["vlist[[1]]",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["   of the output is a list of all vertices, and  the second part ",
+  
+  FontFamily->"Times"],
+ StyleBox["vlist[[2]] ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" is the list of \"active-variable\" sets, indicating which \
+inequalities are satisfied with equalities at each vertex.   More precisely, \
+for each vertex  v, the ",
+  FontFamily->"Times"],
+ StyleBox["active variable set",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  is  ",
+  FontFamily->"Times"],
+ StyleBox["Active(v)={j: h_j(v)=0}",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" , where\n \n              ",
+  FontFamily->"Times"],
+ StyleBox["h_j  = { x : x_j= 0 }",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  for ",
+  FontFamily->"Times"],
+ StyleBox["j=1,....,d",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[",  and\n              ",
+  FontFamily->"Times"],
+ StyleBox["h_(d+i) = { x : m[[i]].x = b_i}",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  for ",
+  FontFamily->"Times"],
+ StyleBox["i=1,...,s",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[".\n                ",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[TextData["vertices=vlist[[1]];  activesets=vlist[[2]];"], "Input",
-  AspectRatioFixed->False],
+Cell["vertices=vlist[[1]];  activesets=vlist[[2]];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"The function Polyhedron3D simply generates 3D graphics primitives for \
-drawing the polyhedron. "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+The function Polyhedron3D simply generates 3D graphics primitives for drawing \
+the polyhedron. \
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"polytope=Graphics3D[Polyhedron3D[vertices,activesets]];"], "Input",
-  AspectRatioFixed->True],
+Cell["polytope=Graphics3D[Polyhedron3D[vertices,activesets]];", "Input"],
 
-Cell[CellGroupData[{Cell[TextData["Show[polytope, Boxed->True, ViewPoint->{2,3,1}];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["Show[polytope, Boxed->True, ViewPoint->{2,3,1}];", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -5413,22 +5408,25 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{266, 296},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]]}, Open]],
+ ImageSize->{314.36090428159554`, 350.},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData[
-"The polyderon is determined by several (=size+dim) halfspaces, and bounded \
-by their boundaries (i.e., hyperplanes).  By using PointEnumeration function, \
-we can also compute all points of intersections of hyperplanes.  (The \
-following takes about 2 minutes on SE/30.)"], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["plist=PointEnumeration[m,b]"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+The polyderon is determined by several (=size+dim) halfspaces, and bounded by \
+their boundaries (i.e., hyperplanes).  By using PointEnumeration function, we \
+can also compute all points of intersections of hyperplanes.  (The following \
+takes about 2 minutes on SE/30.)\
+\>", "Text",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["plist=PointEnumeration[m,b]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{{0, 0, 0}, {8/3, 0, 0}, {0, 0, 4}, {2, 0, 1}, 
@@ -5473,24 +5471,28 @@ Cell[OutputFormData["\<\
  
    {2, 6, 5}, {2, 6, 3}, {1, 6, 2}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Then we can draw these points together with the convex polytope to see how \
-the hyperplanes intersect outside the polytope."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+Cell["\<\
+Then we can draw these points together with the convex polytope to see how \
+the hyperplanes intersect outside the polytope.\
+\>", "Text",
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"pointplot=Graphics3D[Join[{PointSize[0.01]},\n            Point /@ \
-plist[[1]]]];"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+pointplot=Graphics3D[Join[{PointSize[0.01]},
+            Point /@ plist[[1]]]];\
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[{pointplot,polytope}, \n     Boxed->True, ViewPoint->{2,3,1}];"], 
-  "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+Show[{pointplot,polytope}, 
+     Boxed->True, ViewPoint->{2,3,1}];\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -5756,34 +5758,43 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{309, 256},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]]}, Open]],
+ ImageSize->{350., 289.5865},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData[
-"One can visualize the partition of the space by the hyperplanes if we draw \
-the lines (1-dimensional flats)  which are intersections of the hyperlanes."],
-   "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["lines=LinesOfArrangement[plist[[2]]];"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+One can visualize the partition of the space by the hyperplanes if we draw \
+the lines (1-dimensional flats)  which are intersections of the hyperlanes.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["plines=(plist[[1]][[#]]&)/@ lines[[1]];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"skeleton=Graphics3D[\n     Join[{Thickness[ 0.002]},\n           Line /@ \
-plines,\n          {PointSize[0.015]},\n           Point /@ plist[[1]]]];"], 
-  "Input",
-  AspectRatioFixed->False],
+Cell["lines=LinesOfArrangement[plist[[2]]];", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[{skeleton,polytope},\n     Boxed->False,ViewPoint->{1,3,2}]"], "Input",
-  AspectRatioFixed->False],
+Cell["plines=(plist[[1]][[#]]&)/@ lines[[1]];", "Input",
+ AspectRatioFixed->False],
+
+Cell["\<\
+skeleton=Graphics3D[
+     Join[{Thickness[ 0.002]},
+           Line /@ plines,
+          {PointSize[0.015]},
+           Point /@ plist[[1]]]];\
+\>", "Input",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Show[{skeleton,polytope},
+     Boxed->False,ViewPoint->{1,3,2}]\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -6229,84 +6240,88 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{301, 262},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350., 304.486},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[OutputFormData[
-"\<\
+Cell[OutputFormData["\<\
 The Unformatted text for this cell was not generated.
 Use options in the Actions Preferences dialog box to 
 control when Unformatted text is generated.\
-\>", 
-"\<\
+\>", "\<\
 -Graphics3D-\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Open  ]],
 
-Cell[TextData[
-"(* \nDo[Show[{skeleton,polytope},\n   Boxed->False,\n   \
-ViewPoint->{2Cos[theta],2Sin[theta],1}],\n   {theta,0,2Pi,Pi/6}]\n*)"], 
-  "Input",
-  AspectRatioFixed->False]}, Open]]}, Open]],
+Cell["\<\
+(* 
+Do[Show[{skeleton,polytope},
+   Boxed->False,
+   ViewPoint->{2Cos[theta],2Sin[theta],1}],
+   {theta,0,2Pi,Pi/6}]
+*)\
+\>", "Input",
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["General Polyhedra and Graph Structures"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"Now we deal with a polyhedron with dimension higher than three.   We need \
-nothing really special for doing this but perhaps more time.  \n\nWe shall \
-generate again a small random matrix  m  of size * dim."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["General Polyhedra and Graph Structures", "Subsection",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["size=3;    dim=5;"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+Now we deal with a polyhedron with dimension higher than three.   We need \
+nothing really special for doing this but perhaps more time.  
 
-Cell[CellGroupData[{Cell[TextData["m=Table[Table[Random[Integer,{0,3}],{dim}],{size}]"], "Input",
-  AspectRatioFixed->False],
+We shall generate again a small random matrix  m  of size * dim.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[OutputFormData[
-"\<\
+Cell[CellGroupData[{
+
+Cell["size=3;    dim=5;", "Input",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["m=Table[Table[Random[Integer,{0,3}],{dim}],{size}]", "Input",
+ AspectRatioFixed->False],
+
+Cell[OutputFormData["\<\
 {{1, 0, 1, 1, 0}, {0, 0, 2, 0, 1}, {1, 1, 1, 0, 0}}\
-\>", 
-"\<\
+\>", "\<\
 {{1, 0, 1, 1, 0}, {0, 0, 2, 0, 1}, {1, 1, 1, 0, 0}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
 Cell[TextData[{
-  StyleBox["Let",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" b",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  be the vector of all 10's.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["Let",
+  FontFamily->"Times"],
+ StyleBox[" b",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  be the vector of all 10's.",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[TextData["b=Table[10, {size}];"], "Input",
-  AspectRatioFixed->False],
+Cell["b=Table[10, {size}];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Now we try to compute the vertices of the convex polyhedron by the vertex \
+Cell["\<\
+Now we try to compute the vertices of the convex polyhedron by the vertex \
 enumeration package.  (The following takes roughly 3-5 minutes on Macintosh \
-SE/30 computer.)"], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+SE/30 computer.)\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["{time,vlist}=Timing[VertexEnumeration[m,b]]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["{time,vlist}=Timing[VertexEnumeration[m,b]]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {18.75*Second, {{{0, 0, 0, 0, 0}, {10, 0, 0, 0, 0}, 
@@ -6358,29 +6373,28 @@ Cell[OutputFormData["\<\
  
     }}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData["vertices=vlist[[1]];  activesets=vlist[[2]];"], "Input",
-  AspectRatioFixed->False]}, Open]],
+Cell["vertices=vlist[[1]];  activesets=vlist[[2]];", "Input",
+ AspectRatioFixed->False]
+}, Open  ]],
 
 Cell[TextData[{
-  StyleBox["The following function computes the",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" edges  ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["of the polyhedron, i.e., the adjacent pairs of vertices.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["The following function computes the",
+  FontFamily->"Times"],
+ StyleBox[" edges  ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["of the polyhedron, i.e., the adjacent pairs of vertices.",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["edges=EdgesOfPolyhedron[activesets]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["edges=EdgesOfPolyhedron[activesets]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{1, 2}, {1, 3}, {1, 4}, {1, 9}, {1, 15}, {2, 3}, 
@@ -6390,8 +6404,7 @@ Cell[OutputFormData["\<\
   {6, 13}, {7, 8}, {7, 11}, {8, 9}, {8, 10}, {9, 13}, 
   {10, 11}, {10, 13}, {10, 14}, {11, 12}, {11, 14}, 
   {12, 13}, {12, 15}, {13, 15}, {14, 15}}\
-\>", 
-"\<\
+\>", "\<\
 {{1, 2}, {1, 3}, {1, 4}, {1, 9}, {1, 15}, {2, 3}, 
  
   {2, 5}, {2, 6}, {2, 14}, {2, 15}, {3, 7}, {3, 8}, 
@@ -6406,17 +6419,19 @@ Cell[OutputFormData["\<\
  
   {12, 13}, {12, 15}, {13, 15}, {14, 15}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"Another important structure we can extract is faces. The Face function gives \
-the list of faces: "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+Another important structure we can extract is faces. The Face function gives \
+the list of faces: \
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["faces=Faces[activesets]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["faces=Faces[activesets]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15}, 
@@ -6427,8 +6442,7 @@ Cell[OutputFormData["\<\
   {2, 3, 5, 6, 7, 8, 10, 11, 14}, 
   {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}, 
   {2, 5, 6, 10, 11, 12, 13, 14, 15}}\
-\>", 
-"\<\
+\>", "\<\
 {{1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15}, 
  
   {1, 2, 3, 4, 5, 6, 7, 8, 9}, 
@@ -6445,63 +6459,50 @@ Cell[OutputFormData["\<\
  
   {2, 5, 6, 10, 11, 12, 13, 14, 15}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
 Cell[TextData[{
-  StyleBox["The j-th set ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["faces[[j]]",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["   is the set of vertices lying on the hyperplane",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["h_j,   ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["where\n \n         ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["h_j  = { x : x_j= 0 }",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  for ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["j=1,....,dim",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[",  and\n         ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["h_(dim+i) = { x : m[[i]].x = b_i}",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox["  for ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["i=1,...,size",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  ".\n\nEach one is a face but may not be a facet.  The facets are the \
-maximal faces.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["The j-th set ",
+  FontFamily->"Times"],
+ StyleBox["faces[[j]]",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["   is the set of vertices lying on the hyperplane",
+  FontFamily->"Times"],
+ StyleBox["h_j,   ",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["where\n \n         ",
+  FontFamily->"Times"],
+ StyleBox["h_j  = { x : x_j= 0 }",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  for ",
+  FontFamily->"Times"],
+ StyleBox["j=1,....,dim",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[",  and\n         ",
+  FontFamily->"Times"],
+ StyleBox["h_(dim+i) = { x : m[[i]].x = b_i}",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  for ",
+  FontFamily->"Times"],
+ StyleBox["i=1,...,size",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[".\n\nEach one is a face but may not be a facet.  The facets are \
+the maximal faces.",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["facets=MaximalSets[faces]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["facets=MaximalSets[faces]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15}, 
@@ -6512,8 +6513,7 @@ Cell[OutputFormData["\<\
   {2, 3, 5, 6, 7, 8, 10, 11, 14}, 
   {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}, 
   {2, 5, 6, 10, 11, 12, 13, 14, 15}}\
-\>", 
-"\<\
+\>", "\<\
 {{1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15}, 
  
   {1, 2, 3, 4, 5, 6, 7, 8, 9}, 
@@ -6530,17 +6530,19 @@ Cell[OutputFormData["\<\
  
   {2, 5, 6, 10, 11, 12, 13, 14, 15}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"If one wants to compute the adjacency among the facets,  simply use the \
-function  EdgesOfPolyhedron,  again."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+If one wants to compute the adjacency among the facets,  simply use the \
+function  EdgesOfPolyhedron,  again.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["coedges=EdgesOfPolyhedron[facets]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["coedges=EdgesOfPolyhedron[facets]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{1, 2}, {1, 3}, {1, 4}, {1, 5}, {1, 6}, {1, 7}, 
@@ -6548,8 +6550,7 @@ Cell[OutputFormData["\<\
   {3, 4}, {3, 5}, {3, 6}, {3, 7}, {3, 8}, {4, 5}, 
   {4, 7}, {4, 8}, {5, 6}, {5, 7}, {5, 8}, {6, 7}, 
   {6, 8}, {7, 8}}\
-\>", 
-"\<\
+\>", "\<\
 {{1, 2}, {1, 3}, {1, 4}, {1, 5}, {1, 6}, {1, 7}, 
  
   {1, 8}, {2, 3}, {2, 4}, {2, 5}, {2, 6}, {2, 7}, 
@@ -6560,29 +6561,32 @@ Cell[OutputFormData["\<\
  
   {6, 8}, {7, 8}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData[
-"With help of the combinatorica package,  you can draw and analyze the graph \
-structure of the polyhedron. "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"(* The next drawing requires  Combinatorica.m  package. *) "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+With help of the combinatorica package,  you can draw and analyze the graph \
+structure of the polyhedron. \
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["<<Combinatorica.m;    (* Optional *)"], "Input",
-  AspectRatioFixed->False],
+Cell["(* The next drawing requires  Combinatorica.m  package. *) ", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["Get::noopen: Can't open Combinatorica.m."], "Message",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["ShowLabeledGraph[gpoly=FromUnorderedPairs[edges]]"], "Input",
-  AspectRatioFixed->False],
+Cell["<<Combinatorica.m;    (* Optional *)", "Input",
+ AspectRatioFixed->False],
+
+Cell["Get::noopen: Can't open Combinatorica.m.", "Message"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ShowLabeledGraph[gpoly=FromUnorderedPairs[edges]]", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -7116,26 +7120,23 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[OutputFormData[
-"\<\
+Cell[OutputFormData["\<\
 The Unformatted text for this cell was not generated.
 Use options in the Actions Preferences dialog box to 
 control when Unformatted text is generated.\
-\>", 
-"\<\
+\>", "\<\
 -Graphics-\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["ShowLabeledGraph[gpolar=FromUnorderedPairs[coedges]]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["ShowLabeledGraph[gpolar=FromUnorderedPairs[coedges]]", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -7499,43 +7500,43 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[OutputFormData[
-"\<\
+Cell[OutputFormData["\<\
 The Unformatted text for this cell was not generated.
 Use options in the Actions Preferences dialog box to 
 control when Unformatted text is generated.\
-\>", 
-"\<\
+\>", "\<\
 -Graphics-\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]]}, Open]]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData["Voronoi Diagrams"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["2-dimensional Diagrams"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["Voronoi Diagrams", "Section",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Voronoi diagram is a useful notion for subdividing a plane into polygonal \
+Cell[CellGroupData[{
+
+Cell["2-dimensional Diagrams", "Subsection",
+ AspectRatioFixed->False],
+
+Cell["\<\
+Voronoi diagram is a useful notion for subdividing a plane into polygonal \
 regions.   Say, for a given  n  locations of fire stations in some particular \
 state (see, first figure below), Voronoi diagram shows which part of the \
 state should be taken care of by which station.   More precisely, Voronoi \
 diagram is the partition of the state into  n  sub-regions, such that each \
 sub-region contains exactly one fire station and every point in a sub-region \
 is closer to its fire station than to the other ones (see, second figure \
-below). "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+below). \
+\>", "Text",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -7758,11 +7759,8 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{37, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -9464,57 +9462,61 @@ stroke
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{37, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[TextData[
-"Let us make a small example by generating few random points in the plane."], 
-  "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+Let us make a small example by generating few random points in the plane.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["dim=2;  size=5;  min=1;  max=30;  width=max-min;"], "Input",
-  AspectRatioFixed->False],
+Cell["dim=2;  size=5;  min=1;  max=30;  width=max-min;", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"datapoints=\n  Table[Table[Random[Integer,\n        {min+width/10, \
-max-width/10}],{dim}],{size}]\n  "], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[OutputFormData[
-"\<\
+Cell["\<\
+datapoints=
+  Table[Table[Random[Integer,
+        {min+width/10, max-width/10}],{dim}],{size}]
+  \
+\>", "Input",
+ AspectRatioFixed->False],
+
+Cell[OutputFormData["\<\
 {{10, 18}, {20, 23}, {13, 17}, {16, 7}, {26, 14}}\
-\>", 
-"\<\
+\>", "\<\
 {{10, 18}, {20, 23}, {13, 17}, {16, 7}, {26, 14}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"Let us draw these points using 3D graphics.  (2D graphics is sufficient for \
-this purpose but 3D graphics will be useful later.)"], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+Let us draw these points using 3D graphics.  (2D graphics is sufficient for \
+this purpose but 3D graphics will be useful later.)\
+\>", "Text",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["points=Map[Append[#,0]&,datapoints];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"dataplot=Graphics3D[Join[{PointSize[0.01]},\n          Point /@ points, \n   \
-      {Polygon[{{min,min,0},{min,max,0},\n                  \
-{max,max,0},{max,min,0}}]}]];"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+dataplot=Graphics3D[Join[{PointSize[0.01]},
+          Point /@ points, 
+         {Polygon[{{min,min,0},{min,max,0},
+                  {max,max,0},{max,min,0}}]}]];\
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[dataplot, Boxed->False, \n     ViewPoint->{0,0,3}, \
-BoxRatios->{1,1,0}];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+Show[dataplot, Boxed->False, 
+     ViewPoint->{0,0,3}, BoxRatios->{1,1,0}];\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -9580,23 +9582,22 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]],
 
-Cell[TextData[
-"In order to compute the Voronoi diagram for the given points, we compute the \
+Cell["\<\
+In order to compute the Voronoi diagram for the given points, we compute the \
 vertices of 3-dimensional convex polyhedron and then project its boundary to \
 a plane.   The convex polyhedron corresponds to a piecewise-linear \
 approximation of a parabola:  z=x^2+y^2.  Each piece is associated with some \
 datapoint  {x_i, y_i}  and is a part of the hyperplane supporting the \
 parabola at this point.   This hyperplane is represented by  z=2*x + 2*y + \
 (x_i^2 + y_i^2).  The convex polyhedron is then represented by the linear \
-inequalities:\nz >= 2*x + 2*y + (x_i^2 + y_i^2), i=1,...,size."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+inequalities:
+z >= 2*x + 2*y + (x_i^2 + y_i^2), i=1,...,size.\
+\>", "Text",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -10330,61 +10331,67 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[TextData[
-"(*  The above is generated by \nparabola=Plot3D[x^2+y^2,{x,0,max},{y,0,max},\
-\n    BoxRatios->{1,1,1},  ViewPoint->{1,-2,1}]    \n*)   "], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+(*  The above is generated by 
+parabola=Plot3D[x^2+y^2,{x,0,max},{y,0,max},
+    BoxRatios->{1,1,1},  ViewPoint->{1,-2,1}]    
+*)   \
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"\nWe make the input matrix  m  and vector  b  for the vertex enumeration \
+Cell["\<\
+
+We make the input matrix  m  and vector  b  for the vertex enumeration \
 package for the convex polyhedron.  Here notice that we will compute this \
-within the square \n[{x, min, max}, {y, min, max}].   Also, the parabola will \
-be lifted so that the approximation won't touch the bottom plane z=0."], 
-  "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+within the square 
+[{x, min, max}, {y, min, max}].   Also, the parabola will be lifted so that \
+the approximation won't touch the bottom plane z=0.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[StyleBox["m1=Map[Append[2 #,-1]&,datapoints];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["m1=Map[Append[2 #,-1]&,datapoints];",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["b0=Map[Sum[#[[j]]^2,{j,dim}]&,datapoints];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["blift=2*Min[b0];   b1=Map[(#-blift)&,b0];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["m=Join[m1,{{-1,0,0},{0,-1,0},{1,0,0},{0,1,0}}];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["b=Join[b1,{-min,-min,max,max}];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False]}, Open]],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"\nPlease notice that the main computation below takes 3-4 minutes on \
-SE/30."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
 
-Cell[CellGroupData[{Cell[TextData[StyleBox["{time,vlist}=Timing[VertexEnumeration[m,b]]",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Please notice that the main computation below takes 3-4 minutes on SE/30.\
+\>", "Text",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["{time,vlist}=Timing[VertexEnumeration[m,b]]",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {18.98333333333333*Second, 
@@ -10397,8 +10404,7 @@ Cell[OutputFormData["\<\
    {{9, 7, 4}, {6, 7, 4}, {6, 7, 8}, {6, 5, 8}, 
     {6, 5, 4}, {12, 5, 4}, {12, 9, 4}, {12, 5, 11}, 
     {9, 7, 10}, {8, 7, 10}, {8, 11, 10}, {8, 11, 5}}}}\
-\>", 
-"\<\
+\>", "\<\
                        131  4624    493  187  20050
 {18.9833 Second, {{{1, ---, ----}, {---, ---, -----}, 
                        22    11     54   18    27
@@ -10425,25 +10431,29 @@ Cell[OutputFormData["\<\
  
     {9, 7, 10}, {8, 7, 10}, {8, 11, 10}, {8, 11, 5}}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"We can see the voronoi diagram by projecting the polyhedral surface onto x-y \
-plane.   Of course, this can be simulated by looking the surface from the \
-sky."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+We can see the voronoi diagram by projecting the polyhedral surface onto x-y \
+plane.   Of course, this can be simulated by looking the surface from the sky.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"poly=Graphics3D[\n       Drop[Polyhedron3D[vlist[[1]],vlist[[2]]],-4]];"], 
-  "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+poly=Graphics3D[
+       Drop[Polyhedron3D[vlist[[1]],vlist[[2]]],-4]];\
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[{poly,dataplot},\n     ViewPoint->{0,0,3}, Shading->True,\n     \
-Boxed->False, BoxRatios->{1,1,0}];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+Show[{poly,dataplot},
+     ViewPoint->{0,0,3}, Shading->True,
+     Boxed->False, BoxRatios->{1,1,0}];\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -10607,51 +10617,53 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]],
 
-Cell[TextData[
-"In order to compute the graph structure of the Voronoi diagram, one must do \
-a little more."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+In order to compute the graph structure of the Voronoi diagram, one must do a \
+little more.\
+\>", "Text",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["VoronoiAdjacency=EdgesOfPolyhedron[vlist[[2]]];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[StyleBox[
-"projectedvertices=Map[{#[[1]],#[[2]],0}&,vlist[[1]]];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Cell[TextData[StyleBox["projectedvertices=Map[{#[[1]],#[[2]],0}&,vlist[[1]]];",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"VoronoiEdges=\n   (projectedvertices[[#]]&) /@ VoronoiAdjacency;"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+VoronoiEdges=
+   (projectedvertices[[#]]&) /@ VoronoiAdjacency;\
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[StyleBox[
-"VoronoiDiagram=Graphics3D[\n    Join[{Thickness[ 0.0025],GrayLevel[0]},\n    \
-       Line /@ VoronoiEdges,\n          {PointSize[0.005],GrayLevel[0]},\n    \
-       Point /@ projectedvertices]];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Cell[TextData[StyleBox["VoronoiDiagram=Graphics3D[\n    Join[{Thickness[ \
+0.0025],GrayLevel[0]},\n           Line /@ VoronoiEdges,\n          \
+{PointSize[0.005],GrayLevel[0]},\n           Point /@ projectedvertices]];",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"We can now draw the Voronoi diagram, the datapoints and the polyhedral \
-surface at the same time."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+We can now draw the Voronoi diagram, the datapoints and the polyhedral \
+surface at the same time.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[{poly,dataplot,VoronoiDiagram},\n     ViewPoint->{0,2,2},  \
-Shading->True,\n     BoxRatios->{1,1,1}]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+Show[{poly,dataplot,VoronoiDiagram},
+     ViewPoint->{0,2,2},  Shading->True,
+     BoxRatios->{1,1,1}]\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -11001,77 +11013,80 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{274, 289},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{330.9348436569246, 350.},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[OutputFormData[
-"\<\
+Cell[OutputFormData["\<\
 The Unformatted text for this cell was not generated.
 Use options in the Actions Preferences dialog box to 
 control when Unformatted text is generated.\
-\>", 
-"\<\
+\>", "\<\
 -Graphics3D-\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"The Delaunay triangulation comes hand-in-hand with the Voronoi diagam.  What \
+Cell["\<\
+The Delaunay triangulation comes hand-in-hand with the Voronoi diagam.  What \
 we have to do is to compute the adjacency among the Voronoi regions (facets \
-of the associated polyhedron.)"], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+of the associated polyhedron.)\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[StyleBox["facets=Faces[vlist[[2]]];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["facets=Faces[vlist[[2]]];",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
 Cell[TextData[StyleBox["coedges=EdgesOfPolyhedron[facets];",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[StyleBox[
-"DelaunayAdjacency=Select[coedges,\n    (dim+1<#[[1]]<=size+dim+1 && \n     \
-dim+1<#[[2]]<=size+dim+1)&] ",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[OutputFormData[
-"\<\
+Cell[TextData[StyleBox["DelaunayAdjacency=Select[coedges,\n    \
+(dim+1<#[[1]]<=size+dim+1 && \n     dim+1<#[[2]]<=size+dim+1)&] ",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
+
+Cell[OutputFormData["\<\
 {{4, 5}, {4, 6}, {4, 7}, {5, 6}, {5, 8}, {6, 7}, {6, 8}, 
   {7, 8}}\
-\>", 
-"\<\
+\>", "\<\
 {{4, 5}, {4, 6}, {4, 7}, {5, 6}, {5, 8}, {6, 7}, {6, 8}, 
  
   {7, 8}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[StyleBox[
-"DelaunayEdges=(points[[#-dim-1]]&) /@ DelaunayAdjacency; ",
-  AspectRatioFixed->False,
-  FontFamily->"Times"]], "Input",
-  AspectRatioFixed->False],
+Cell[TextData[StyleBox["DelaunayEdges=(points[[#-dim-1]]&) /@ \
+DelaunayAdjacency; ",
+ FontFamily->"Times",
+ FontSize->12]], "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Delaunay=Graphics3D[\n    Join[{Thickness[ 0.0055]},Line /@ DelaunayEdges,\n \
-        {PointSize[0.02],GrayLevel[0]}, \n         Point /@ points]];"], 
-  "Input",
-  AspectRatioFixed->False]}, Open]],
+Cell["\<\
+Delaunay=Graphics3D[
+    Join[{Thickness[ 0.0055]},Line /@ DelaunayEdges,
+         {PointSize[0.02],GrayLevel[0]}, 
+         Point /@ points]];\
+\>", "Input",
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[{VoronoiDiagram,Delaunay},\n     ViewPoint->{0,0,3},  Boxed->False,  \n \
-    BoxRatios->{1,1,0}];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+Show[{VoronoiDiagram,Delaunay},
+     ViewPoint->{0,0,3},  Boxed->False,  
+     BoxRatios->{1,1,0}];\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -11315,69 +11330,78 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]]}, Open]],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["General Diagrams"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"General (d-dimensional) Voronoi diagrams (tasselations) can be computed in \
+Cell["General Diagrams", "Subsection",
+ AspectRatioFixed->False],
+
+Cell["\<\
+General (d-dimensional) Voronoi diagrams (tasselations) can be computed in \
 the exactly same manner as for the plane, through computing the structure of \
-a (d+1)-dimensional convex polyhedron."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+a (d+1)-dimensional convex polyhedron.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["dim=4; size=5; min=5;  max=20;  width=max-min;"], "Input",
-  AspectRatioFixed->False],
+Cell["dim=4; size=5; min=5;  max=20;  width=max-min;", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"datapoints=\n  Table[Table[Random[Integer,\n        \
-{min+width/10,max-width/10}], {dim}],\n       {size}]\n  "], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+datapoints=
+  Table[Table[Random[Integer,
+        {min+width/10,max-width/10}], {dim}],
+       {size}]
+  \
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{8, 9, 17, 8}, {14, 10, 12, 14}, {15, 12, 7, 9}, 
   {15, 15, 18, 16}, {9, 15, 9, 8}}\
-\>", 
-"\<\
+\>", "\<\
 {{8, 9, 17, 8}, {14, 10, 12, 14}, {15, 12, 7, 9}, 
  
   {15, 15, 18, 16}, {9, 15, 9, 8}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["m1=Map[Append[2 #,-1]&,datapoints];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData["b0=Map[Sum[#[[j]]^2,{j,dim}]&,datapoints];"], "Input",
-  AspectRatioFixed->False],
+Cell["m1=Map[Append[2 #,-1]&,datapoints];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData["blift=2*Min[b0];   b1=Map[(#-blift)&,b0];"], "Input",
-  AspectRatioFixed->False],
+Cell["b0=Map[Sum[#[[j]]^2,{j,dim}]&,datapoints];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData["m=m1;  b=b1;"], "Input",
-  AspectRatioFixed->False]}, Open]],
+Cell["blift=2*Min[b0];   b1=Map[(#-blift)&,b0];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"We can compute the vertices of  the polyhedron whose boundary represents the \
+Cell["m=m1;  b=b1;", "Input",
+ AspectRatioFixed->False]
+}, Open  ]],
+
+Cell["\<\
+We can compute the vertices of  the polyhedron whose boundary represents the \
 Voronoi partitions.   Notice that the computation will be restricted to the \
 nonnegative orthant and thus the result may not contain the  complete \
-structure of the partition."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+structure of the partition.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["The next one takes 3-4 minutes on  SE/30."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["The next one takes 3-4 minutes on  SE/30.", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["{time,vlist}=Timing[VertexEnumeration[m,b]]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["{time,vlist}=Timing[VertexEnumeration[m,b]]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {35.45*Second, {{{0, 0, 47/16, 0, 4031/8}, 
@@ -11413,8 +11437,7 @@ Cell[OutputFormData["\<\
     {1, 2, 10, 7, 3}, {8, 2, 10, 4, 6}, 
     {8, 2, 10, 7, 6}, {8, 2, 10, 7, 3}, 
     {8, 2, 10, 4, 3}, {1, 2, 10, 4, 3}}}}\
-\>", 
-"\<\
+\>", "\<\
                         47     4031
 {35.45 Second, {{{0, 0, --, 0, ----}, 
                         16      8
@@ -11499,33 +11522,44 @@ Cell[OutputFormData["\<\
  
     {8, 2, 10, 4, 3}, {1, 2, 10, 4, 3}}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["facets=Faces[vlist[[2]]];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData["coedges=EdgesOfPolyhedron[facets];"], "Input",
-  AspectRatioFixed->False],
+Cell["facets=Faces[vlist[[2]]];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"DelaunayAdjacency=Select[coedges,\n    (dim+1<#[[1]]<=size+dim+1 && \n     \
-dim+1<#[[2]]<=size+dim+1)&]; "], "Input",
-  AspectRatioFixed->False],
+Cell["coedges=EdgesOfPolyhedron[facets];", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData["DelaunayEdges=(#-dim-1)& /@ DelaunayAdjacency;"], "Input",
-  AspectRatioFixed->False]}, Open]],
+Cell["\<\
+DelaunayAdjacency=Select[coedges,
+    (dim+1<#[[1]]<=size+dim+1 && 
+     dim+1<#[[2]]<=size+dim+1)&]; \
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"We can draw the Delaunay structure (the adjacency among the Voronoi regions) \
-by using Combinatorica package."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["DelaunayEdges=(#-dim-1)& /@ DelaunayAdjacency;", "Input",
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData[
-"(*  << Combinatorica.m;    *)\n\nShowLabeledGraph[\n   \
-DelaunayGraph=FromUnorderedPairs[DelaunayEdges]];\n"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+We can draw the Delaunay structure (the adjacency among the Voronoi regions) \
+by using Combinatorica package.\
+\>", "Text",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+(*  << Combinatorica.m;    *)
+
+ShowLabeledGraph[
+   DelaunayGraph=FromUnorderedPairs[DelaunayEdges]];
+\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -11691,660 +11725,708 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]]}, Open]]}, Open]],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData["Convex Hull"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["3-dimensional Convex Hull"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["Convex Hull", "Section",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"Computing the convex hull of a given set of points can be indirectly done by \
+Cell[CellGroupData[{
+
+Cell["3-dimensional Convex Hull", "Subsection",
+ AspectRatioFixed->False],
+
+Cell["\<\
+Computing the convex hull of a given set of points can be indirectly done by \
 the vertex enumeration.   In this section, we see how this can be done \
-through a 3-dimensional example."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+through a 3-dimensional example.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["First we generate 10 points in 3-space."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["First we generate 10 points in 3-space.", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["size=10;      dim=3;"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData[
-"datapoints=\n   Table[Table[Random[Integer,{-2,2}],{dim}],{size}]"], "Input",\
+Cell["size=10;      dim=3;", "Input",
+ AspectRatioFixed->False],
 
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+datapoints=
+   Table[Table[Random[Integer,{-2,2}],{dim}],{size}]\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
-{{0, 1, -1}, {-2, 2, -2}, {-2, -2, -2}, {-1, 2, 1}, 
-  {-1, -2, -2}, {1, 1, 0}, {0, 1, 2}, {1, 1, 0}, 
-  {2, 2, -2}, {2, -1, 0}}\
-\>", 
-"\<\
-{{0, 1, -1}, {-2, 2, -2}, {-2, -2, -2}, {-1, 2, 1}, 
+{{-2, 0, -2}, {-2, 0, 2}, {1, -2, -1}, {2, 1, -1}, 
+  {2, 0, -2}, {2, 1, -2}, {-1, -2, -1}, 
+  {-1, 1, -1}, {2, 1, -2}, {0, 1, 0}}\
+\>", "\<\
+{{-2, 0, -2}, {-2, 0, 2}, {1, -2, -1}, {2, 1, -1}, 
  
-  {-1, -2, -2}, {1, 1, 0}, {0, 1, 2}, {1, 1, 0}, 
+  {2, 0, -2}, {2, 1, -2}, {-1, -2, -1}, 
  
-  {2, 2, -2}, {2, -1, 0}}\
+  {-1, 1, -1}, {2, 1, -2}, {0, 1, 0}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData[
-"datapoints=Union[datapoints];\nsize=Length[datapoints]"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
+
+Cell["\<\
+datapoints=Union[datapoints];
+size=Length[datapoints]\
+\>", "Input"],
 
 Cell[OutputFormData["\<\
 9\
 \>", "\<\
 9\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
-Cell[TextData[
-"dataplot=Graphics3D[Join[{PointSize[0.01]},\n           Point /@ \
-datapoints]];"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+dataplot=Graphics3D[Join[{PointSize[0.01]},
+           Point /@ datapoints]];\
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"Show[dataplot, ViewPoint->{2,3,1}, BoxRatios->{1,1,1}];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["Show[dataplot, ViewPoint->{2,3,1}, BoxRatios->{1,1,1}];", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
 %%Creator: Mathematica
-%%AspectRatio: 0.94859 
+%%AspectRatio: .94859  
 MathPictureStart
+%% Graphics3D
 /Courier findfont 10  scalefont  setfont
 % Scaling calculations
--0.030318 1.025499 0.025637 1.025499 [
+-0.0303185 1.0255 0.0256375 1.0255 [
 [ 0 0 0 0 ]
-[ 1 0.948587 0 0 ]
+[ 1 .94859  0 0 ]
 ] MathScale
 % Start of Graphics
 1 setlinecap
 1 setlinejoin
 newpath
-%%Object: Graphics3D
 [ ] 0 setdash
-0 setgray
-0 0 moveto
-1 0 lineto
-1 0.94859 lineto
-0 0.94859 lineto
+0 g
+0 0 m
+1 0 L
+1 .94859  L
+0 .94859  L
 closepath
 clip
 newpath
-gsave
-0.002 setlinewidth
-0.55767 0.37752 moveto
-0.56237 0.92295 lineto
-stroke
-0.56237 0.92295 moveto
-0.97436 0.85393 lineto
-stroke
-0.97436 0.85393 moveto
-0.93922 0.19655 lineto
-stroke
-0.93922 0.19655 moveto
-0.55767 0.37752 lineto
-stroke
-0.05609 0.26492 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.02564 0.88022 lineto
-stroke
-0.02564 0.88022 moveto
-0.05609 0.26492 lineto
-stroke
-0.55767 0.37752 moveto
-0.56237 0.92295 lineto
-stroke
-0.56237 0.92295 moveto
-0.02564 0.88022 lineto
-stroke
-0.02564 0.88022 moveto
-0.05609 0.26492 lineto
-stroke
-0.05609 0.26492 moveto
-0.55767 0.37752 lineto
-stroke
-0.93922 0.19655 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.97436 0.85393 lineto
-stroke
-0.97436 0.85393 moveto
-0.93922 0.19655 lineto
-stroke
-grestore
-gsave
-0.01 setlinewidth
-0.55469 0.38389 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.44525 0.35952 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.91747 0.21283 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.12838 0.52656 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.5725 0.3458 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.43488 0.47485 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.57753 0.83066 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.81526 0.65275 Mdot
-grestore
-gsave
-0.01 setlinewidth
-0.38172 0.0539 Mdot
-grestore
-gsave
-0.002 setlinewidth
-0.05609 0.26492 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.02564 0.88022 lineto
-stroke
-0.02564 0.88022 moveto
-0.05609 0.26492 lineto
-stroke
-0.93922 0.19655 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.97436 0.85393 lineto
-stroke
-0.97436 0.85393 moveto
-0.93922 0.19655 lineto
-stroke
-grestore
-gsave
-grestore
+p
+.002  w
+.55767  .37752  m
+.56237  .92295  L
+s
+.56237  .92295  m
+.97436  .85393  L
+s
+.97436  .85393  m
+.93922  .19655  L
+s
+.93922  .19655  m
+.55767  .37752  L
+s
+.05609  .26492  m
+.37585  .02564  L
+s
+.37585  .02564  m
+.36616  .78699  L
+s
+.36616  .78699  m
+.02564  .88022  L
+s
+.02564  .88022  m
+.05609  .26492  L
+s
+.55767  .37752  m
+.56237  .92295  L
+s
+.56237  .92295  m
+.02564  .88022  L
+s
+.02564  .88022  m
+.05609  .26492  L
+s
+.05609  .26492  m
+.55767  .37752  L
+s
+.93922  .19655  m
+.37585  .02564  L
+s
+.37585  .02564  m
+.36616  .78699  L
+s
+.36616  .78699  m
+.97436  .85393  L
+s
+.97436  .85393  m
+.93922  .19655  L
+s
+P
+p
+.01  w
+.4447  .48797  Mdot
+P
+p
+.01  w
+.20177  .44195  Mdot
+P
+p
+.01  w
+.78114  .27711  Mdot
+P
+p
+.01  w
+.80146  .86394  Mdot
+P
+p
+.01  w
+.80333  .3301  Mdot
+P
+p
+.01  w
+.26459  .13917  Mdot
+P
+p
+.01  w
+.67622  .4607  Mdot
+P
+p
+.01  w
+.38172  .0539  Mdot
+P
+p
+.01  w
+.3797  .22264  Mdot
+P
+p
+.002  w
+.05609  .26492  m
+.37585  .02564  L
+s
+.37585  .02564  m
+.36616  .78699  L
+s
+.36616  .78699  m
+.02564  .88022  L
+s
+.02564  .88022  m
+.05609  .26492  L
+s
+.93922  .19655  m
+.37585  .02564  L
+s
+.37585  .02564  m
+.36616  .78699  L
+s
+.36616  .78699  m
+.97436  .85393  L
+s
+.97436  .85393  m
+.93922  .19655  L
+s
+P
+p
+P
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{290, 275},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]],
+ ImageSize->{350., 332.0065},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]],
 
-Cell[TextData[
-"The convex hull of given points is the smallest convex region (convex \
-polyhedron) containing the points.   \n\nThe theory relating the convex hull \
-and the vertex enumeration is the polarity.   Let  P  be a convex polyhedron \
-containing the origin in its interior.   Let  P*  be the convex set defined \
-by  {y :  x.y  <= 1  for all  x  in  P}.  Then P* is also a convex polyhedron \
-whose face lattice is anti-isomorphic to that of  P.   Therefore, there is a \
-one-to-one correspondance between the vertices of  P*  and the facets of  P  \
-preserving the adjacency."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+The convex hull of given points is the smallest convex region (convex \
+polyhedron) containing the points.   
 
-Cell[TextData[
-"Thus, what we must do first is to translate the given points so that the \
-origin will be contained in the convex hull."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+The theory relating the convex hull and the vertex enumeration is the \
+polarity.   Let  P  be a convex polyhedron containing the origin in its \
+interior.   Let  P*  be the convex set defined by  {y :  x.y  <= 1  for all  \
+x  in  P}.  Then P* is also a convex polyhedron whose face lattice is \
+anti-isomorphic to that of  P.   Therefore, there is a one-to-one \
+correspondance between the vertices of  P*  and the facets of  P  preserving \
+the adjacency.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["center=Sum[datapoints[[i]],{i,size}]/size"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+Thus, what we must do first is to translate the given points so that the \
+origin will be contained in the convex hull.\
+\>", "Text",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["center=Sum[datapoints[[i]],{i,size}]/size", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
-{-1/9, 4/9, -2/3}\
+{1/9, 0, -8/9}\
 \>", "\<\
-   1   4    2
-{-(-), -, -(-)}
-   9   9    3\
+ 1       8
+{-, 0, -(-)}
+ 9       9\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData["translatedpoints=Map[(#-center)&,datapoints];"], "Input",
-  AspectRatioFixed->False],
+Cell["translatedpoints=Map[(#-center)&,datapoints];", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["m=translatedpoints;"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData["c={100,100,100}; "], "Input",
-  AspectRatioFixed->False],
+Cell["m=translatedpoints;", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData["b=Table[1,{size}];"], "Input",
-  AspectRatioFixed->False]}, Open]],
+Cell["c={100,100,100}; ", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData[
-"******  Caution:   Long computation  ******\nThe next one takes 4-5 minutes \
-on  SE/30."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["b=Table[1,{size}];", "Input",
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData["flist=VertexEnumeration[m,b+m.c];"], "Input",
-  AspectRatioFixed->False],
+Cell["\<\
+******  Caution:   Long computation  ******
+The next one takes 4-5 minutes on  SE/30.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["flist1=Map[(#-c)&,flist[[1]]]"], "Input",
-  AspectRatioFixed->False],
+Cell["flist=VertexEnumeration[m,b+m.c];", "Input",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["flist1=Map[(#-c)&,flist[[1]]]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
-{{-9/13, 0, 3/13}, {-63/103, -18/103, 45/103}, 
-  {0, 0, -3/4}, {0, 9/14, 0}, {9/35, 18/35, 9/35}, 
-  {9/22, -27/88, -81/176}, {15/29, 6/29, 9/29}, 
-  {0, -9/16, 9/32}, {-9/89, -54/89, 45/89}}\
-\>", 
-"\<\
-    9       3       63      18    45             3
-{{-(--), 0, --}, {-(---), -(---), ---}, {0, 0, -(-)}, 
-    13      13      103     103   103            4
+{{0, -27/52, 9/26}, {-9/19, -9/38, 0}, 
+  {-9/19, 9/19, 0}, {-1/5, 4/5, 1/5}, 
+  {27/41, -9/41, 9/41}, {81/115, -27/115, 99/115}, 
+  {3/11, 6/11, 6/11}, {9/17, 0, 0}, {0, 1, 0}, 
+  {0, -9/20, -9/10}, {0, 0, -9/10}, 
+  {-9/49, 36/49, -27/49}}\
+\>", "\<\
+       27   9       9      9           9    9
+{{0, -(--), --}, {-(--), -(--), 0}, {-(--), --, 0}, 
+       52   26      19     38          19   19
  
-      9        9   18  9     9     27     81
-  {0, --, 0}, {--, --, --}, {--, -(--), -(---)}, 
-      14       35  35  35    22    88     176
+     1   4  1    27    9    9
+  {-(-), -, -}, {--, -(--), --}, 
+     5   5  5    41    41   41
  
-   15  6   9          9    9       9      54   45
-  {--, --, --}, {0, -(--), --}, {-(--), -(--), --}}
-   29  29  29         16   32      89     89   89\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+   81     27    99     3   6   6     9
+  {---, -(---), ---}, {--, --, --}, {--, 0, 0}, 
+   115    115   115    11  11  11    17
+ 
+                   9      9              9
+  {0, 1, 0}, {0, -(--), -(--)}, {0, 0, -(--)}, 
+                   20     10             10
+ 
+     9    36    27
+  {-(--), --, -(--)}}
+     49   49    49\
+\>"], "Output"],
 
-Cell[TextData[
-"We can easily compute which datapoints form a facet of the convex hull.  "], 
-  "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["\<\
+We can easily compute which datapoints form a facet of the convex hull.  \
+\>", "Text"],
 
-Cell[CellGroupData[{Cell[TextData["facets=Map[(#-Table[dim,{Length[#]}])&,flist[[2]]]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["facets=Map[(#-Table[dim,{Length[#]}])&,flist[[2]]]", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
-{{1, 4, 2}, {1, 4, 6}, {9, 3, 2, 1}, {4, 9, 2}, 
-  {4, 9, 6}, {8, 9, 3}, {8, 9, 6}, {8, 1, 3}, {8, 1, 6}}\
-\>", 
-"\<\
-{{1, 4, 2}, {1, 4, 6}, {9, 3, 2, 1}, {4, 9, 2}, 
+{{2, 3, 6}, {1, 3, 2}, {1, 4, 2}, {5, 4, 2}, 
+  {9, 7, 6}, {9, 2, 6}, {9, 2, 5}, {9, 7, 8}, 
+  {9, 5, 8, 4}, {6, 3, 7, 1}, {1, 8, 7}, {1, 8, 4}}\
+\>", "\<\
+{{2, 3, 6}, {1, 3, 2}, {1, 4, 2}, {5, 4, 2}, 
  
-  {4, 9, 6}, {8, 9, 3}, {8, 9, 6}, {8, 1, 3}, {8, 1, 6}}\
+  {9, 7, 6}, {9, 2, 6}, {9, 2, 5}, {9, 7, 8}, 
+ 
+  {9, 5, 8, 4}, {6, 3, 7, 1}, {1, 8, 7}, {1, 8, 4}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"activesets=\n\
-Map[Flatten[Position[Chop[flist1.#-1],0]+3]&,translatedpoints];"], "Input",
-  AspectRatioFixed->True],
+Cell["\<\
+activesets=Map[Flatten[Position[
+\tChop[flist1.#-1],0]+3]&,translatedpoints];\
+\>", "Input"],
 
-Cell[TextData["extsets=MaximalSets[activesets];"], "Input",
-  AspectRatioFixed->True],
+Cell["extsets=MaximalSets[activesets];", "Input"],
 
-Cell[TextData[
-"maxpos=Flatten[Map[Position[activesets,#]&,extsets]];"], "Input",
-  AspectRatioFixed->True],
+Cell["maxpos=Flatten[Map[Position[activesets,#]&,extsets]];", "Input"],
 
-Cell[TextData["extdata=datapoints[[maxpos]];"], "Input",
-  AspectRatioFixed->True],
+Cell["extdata=datapoints[[maxpos]];", "Input"],
 
-Cell[TextData[
-"convexhull=Graphics3D[Polyhedron3D[extdata,extsets]];"], "Input",
-  AspectRatioFixed->True],
+Cell["convexhull=Graphics3D[Polyhedron3D[extdata,extsets]];", "Input"],
 
-Cell[CellGroupData[{Cell[TextData["Show[convexhull, Boxed->True, ViewPoint->{2,3,1}];"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["Show[convexhull, Boxed->True, ViewPoint->{2,3,1}];", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
 %%Creator: Mathematica
-%%AspectRatio: 0.94859 
+%%AspectRatio: 1.00125 
 MathPictureStart
+%% Graphics3D
 /Courier findfont 10  scalefont  setfont
 % Scaling calculations
--0.030318 1.025499 0.025637 1.025499 [
+-0.0335855 1.0584 0.02646 1.0584 [
 [ 0 0 0 0 ]
-[ 1 0.948587 0 0 ]
+[ 1 1.00125 0 0 ]
 ] MathScale
 % Start of Graphics
 1 setlinecap
 1 setlinejoin
 newpath
-%%Object: Graphics3D
 [ ] 0 setdash
-0 setgray
-0 0 moveto
-1 0 lineto
-1 0.94859 lineto
-0 0.94859 lineto
+0 g
+0 0 m
+1 0 L
+1 1.00125 L
+0 1.00125 L
 closepath
 clip
 newpath
-gsave
-0.002 setlinewidth
-0.55767 0.37752 moveto
-0.56237 0.92295 lineto
-stroke
-0.56237 0.92295 moveto
-0.97436 0.85393 lineto
-stroke
-0.97436 0.85393 moveto
-0.93922 0.19655 lineto
-stroke
-0.93922 0.19655 moveto
-0.55767 0.37752 lineto
-stroke
-0.05609 0.26492 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.02564 0.88022 lineto
-stroke
-0.02564 0.88022 moveto
-0.05609 0.26492 lineto
-stroke
-0.55767 0.37752 moveto
-0.56237 0.92295 lineto
-stroke
-0.56237 0.92295 moveto
-0.02564 0.88022 lineto
-stroke
-0.02564 0.88022 moveto
-0.05609 0.26492 lineto
-stroke
-0.05609 0.26492 moveto
-0.55767 0.37752 lineto
-stroke
-0.93922 0.19655 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.97436 0.85393 lineto
-stroke
-0.97436 0.85393 moveto
-0.93922 0.19655 lineto
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.55469 0.38389 moveto 0.57753 0.83066 lineto 0.12838 0.52656 lineto \
-closepath gsave
-0.753 0.405 0.394 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.55469 0.38389 moveto 0.44525 0.35952 lineto 0.12838 0.52656 lineto \
-closepath gsave
-0.808 0.519 0.499 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.38172 0.0539 moveto 0.44525 0.35952 lineto 0.55469 0.38389 lineto gsave
-0.592 0.799 0.979 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.55469 0.38389 moveto 0.91747 0.21283 lineto 0.38172 0.0539 lineto gsave
-0.592 0.799 0.979 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.55469 0.38389 moveto 0.81526 0.65275 lineto 0.57753 0.83066 lineto \
-closepath gsave
-0.462 0.182 0.402 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.55469 0.38389 moveto 0.91747 0.21283 lineto 0.81526 0.65275 lineto \
-closepath gsave
-0.37 0.179 0.486 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.44525 0.35952 moveto 0.12838 0.52656 lineto 0.38172 0.0539 lineto closepath \
-gsave
-0.888 0.961 0.839 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.91747 0.21283 moveto 0.81526 0.65275 lineto 0.38172 0.0539 lineto closepath \
-gsave
-0.839 0.636 0.627 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.57753 0.83066 moveto 0.12838 0.52656 lineto 0.38172 0.0539 lineto closepath \
-gsave
-0.569 0.521 0.762 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.81526 0.65275 moveto 0.57753 0.83066 lineto 0.38172 0.0539 lineto closepath \
-gsave
-0.73 0.623 0.738 setrgbcolor
-fill grestore
-stroke
-grestore
-gsave
-0.002 setlinewidth
-0.05609 0.26492 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.02564 0.88022 lineto
-stroke
-0.02564 0.88022 moveto
-0.05609 0.26492 lineto
-stroke
-0.93922 0.19655 moveto
-0.37585 0.02564 lineto
-stroke
-0.37585 0.02564 moveto
-0.36616 0.78699 lineto
-stroke
-0.36616 0.78699 moveto
-0.97436 0.85393 lineto
-stroke
-0.97436 0.85393 moveto
-0.93922 0.19655 lineto
-stroke
-grestore
-gsave
-grestore
+p
+.002  w
+.62378  .35585  m
+.63198  .97479  L
+s
+.63198  .97479  m
+.97354  .91756  L
+s
+.97354  .91756  m
+.94029  .20573  L
+s
+.94029  .20573  m
+.62378  .35585  L
+s
+.05854  .22469  m
+.32343  .02646  L
+s
+.32343  .02646  m
+.3083  .84769  L
+s
+.3083  .84769  m
+.02646  .92486  L
+s
+.02646  .92486  m
+.05854  .22469  L
+s
+.62378  .35585  m
+.63198  .97479  L
+s
+.63198  .97479  m
+.02646  .92486  L
+s
+.02646  .92486  m
+.05854  .22469  L
+s
+.05854  .22469  m
+.62378  .35585  L
+s
+.94029  .20573  m
+.32343  .02646  L
+s
+.32343  .02646  m
+.3083  .84769  L
+s
+.3083  .84769  m
+.97354  .91756  L
+s
+.97354  .91756  m
+.94029  .20573  L
+s
+P
+p
+.002  w
+.80979  .27378  m .49562  .48122  L .222  .42769  L p
+.74  .766  .873  r
+F P
+s
+P
+p
+.002  w
+.80979  .27378  m .83098  .92058  L .49562  .48122  L closepath p
+.6  .452  .652  r
+F P
+s
+P
+p
+.002  w
+.83098  .92058  m .49562  .48122  L .222  .42769  L closepath p
+.799  .469  .431  r
+F P
+s
+P
+p
+.002  w
+.80979  .27378  m .23874  .12315  L .33265  .05479  L closepath p
+.592  .799  .979  r
+F P
+s
+P
+p
+.002  w
+.222  .42769  m .23874  .12315  L .80979  .27378  L p
+.74  .766  .873  r
+F P
+s
+P
+p
+.002  w
+.80979  .27378  m .7931  .35027  L .33265  .05479  L closepath p
+.819  .352  .105  r
+F P
+s
+P
+p
+.002  w
+.80979  .27378  m .83098  .92058  L .7931  .35027  L closepath p
+.876  .685  .162  r
+F P
+s
+P
+p
+.002  w
+.83098  .92058  m .222  .42769  L .32948  .23744  L closepath p
+.307  .493  .877  r
+F P
+s
+P
+p
+.002  w
+.222  .42769  m .23874  .12315  L .32948  .23744  L closepath p
+.018  .111  .62  r
+F P
+s
+P
+p
+.002  w
+.83098  .92058  m .65258  .49274  L .32948  .23744  L closepath p
+.721  .67  .8  r
+F P
+s
+P
+p
+.002  w
+.83098  .92058  m .7931  .35027  L .65258  .49274  L closepath p
+.888  .738  .689  r
+F P
+s
+P
+p
+.002  w
+.32948  .23744  m .33265  .05479  L .7931  .35027  L p
+.834  .634  .632  r
+F P
+s
+P
+p
+.002  w
+.7931  .35027  m .65258  .49274  L .32948  .23744  L p
+.834  .634  .632  r
+F P
+s
+P
+p
+.002  w
+.23874  .12315  m .33265  .05479  L .32948  .23744  L closepath p
+.281  .18  .558  r
+F P
+s
+P
+p
+.002  w
+.05854  .22469  m
+.32343  .02646  L
+s
+.32343  .02646  m
+.3083  .84769  L
+s
+.3083  .84769  m
+.02646  .92486  L
+s
+.02646  .92486  m
+.05854  .22469  L
+s
+.94029  .20573  m
+.32343  .02646  L
+s
+.32343  .02646  m
+.3083  .84769  L
+s
+.3083  .84769  m
+.97354  .91756  L
+s
+.97354  .91756  m
+.94029  .20573  L
+s
+P
+p
+P
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{272, 258},
-  ImageMargins->{{34, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False]}, Open]]}, Open]]}, Open]]}, Open]],
+ ImageSize->{349.56304619225966`, 350.},
+ ImageRegion->{{0., 1.}, {0., 1.}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["General Convex Hull"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"Here, we just note that the convex hull of points in general d-space can be \
+Cell["General Convex Hull", "Subsection",
+ AspectRatioFixed->False],
+
+Cell["\<\
+Here, we just note that the convex hull of points in general d-space can be \
 computed through the same operation (polarization) and the vertex \
-enumeration.\n   "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]],
+enumeration.
+   \
+\>", "Text",
+ AspectRatioFixed->False]
+}, Closed]]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData["Options for Enumeration"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["Monitoring the Computation"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["Options for Enumeration", "Section",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["Monitoring the Computation", "Subsection",
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox[
-  "Sometimes, you may want to monitor how the computation is being done.   \
-For this purpose, one can use ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" MonitoringFile",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontWeight->"Bold"],
-  StyleBox[
-  "  option, which allows you to output the list of nonbasic varibles as the \
-computation proceeds.   The output can be directed to a file you specify, or \
-to CRT if the filename is \"",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["stdout",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontWeight->"Bold"],
-  StyleBox["\".",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["Sometimes, you may want to monitor how the computation is being \
+done.   For this purpose, one can use ",
+  FontFamily->"Times"],
+ StyleBox[" MonitoringFile",
+  FontFamily->"Times",
+  FontWeight->"Bold"],
+ StyleBox["  option, which allows you to output the list of nonbasic varibles \
+as the computation proceeds.   The output can be directed to a file you \
+specify, or to CRT if the filename is \"",
+  FontFamily->"Times"],
+ StyleBox["stdout",
+  FontFamily->"Times",
+  FontWeight->"Bold"],
+ StyleBox["\".",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[TextData["m={{1,1,1},{0,1,0},{0,0,1}};"], "Input",
-  AspectRatioFixed->False],
+Cell["m={{1,1,1},{0,1,0},{0,0,1}};", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData["b={1,1,1};"], "Input",
-  AspectRatioFixed->False],
+Cell["b={1,1,1};", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"vlist=VertexEnumeration[m,b,MonitoringFile->\"stdout\"]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData["{1, 2, 3}\n{4, 2, 3}\n{4, 5, 3}\n{4, 2, 6}"], "Print",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["vlist=VertexEnumeration[m,b,MonitoringFile->\"stdout\"]", "Input",
+ AspectRatioFixed->False],
+
+Cell["\<\
+{1, 2, 3}
+{4, 2, 3}
+{4, 5, 3}
+{4, 2, 6}\
+\>", "Print",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 {{{0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, 
   {{1, 2, 3}, {4, 2, 3}, {4, 5, 3, 1}, {4, 2, 6, 1}}}\
-\>", 
-"\<\
+\>", "\<\
 {{{0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, 
  
   {{1, 2, 3}, {4, 2, 3}, {4, 5, 3, 1}, {4, 2, 6, 1}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["Output All Basic Solutions"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["Output All Basic Solutions", "Subsection",
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox[
-  "Instead of outputing all vertices without repetition, one can list all \
-basic solutions with possible repetitions of vertices.   For this purpose one \
-can use the",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox[" SearchTree",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontWeight->"Bold"],
-  StyleBox[" option.   If this option is set  ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["True ",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontWeight->"Bold"],
-  StyleBox[
-  "(default is False), VertexEnumeration outputs all basic feasible solutions \
-together with the Search Tree structure which the Avis-Fukuda algorithm \
-actually traces.",
-    Evaluatable->False,
-    AspectRatioFixed->False]
+ StyleBox["Instead of outputing all vertices without repetition, one can list \
+all basic solutions with possible repetitions of vertices.   For this purpose \
+one can use the",
+  FontFamily->"Times"],
+ StyleBox[" SearchTree",
+  FontFamily->"Times",
+  FontWeight->"Bold"],
+ StyleBox[" option.   If this option is set  ",
+  FontFamily->"Times"],
+ StyleBox["True ",
+  FontFamily->"Times",
+  FontWeight->"Bold"],
+ StyleBox["(default is False), VertexEnumeration outputs all basic feasible \
+solutions together with the Search Tree structure which the Avis-Fukuda \
+algorithm actually traces.",
+  FontFamily->"Times"]
 }], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[TextData["m={{1,1,1},{0,1,0},{0,0,1}};"], "Input",
-  AspectRatioFixed->False],
+Cell["m={{1,1,1},{0,1,0},{0,0,1}};", "Input",
+ AspectRatioFixed->False],
 
-Cell[TextData["b={1,1,1};"], "Input",
-  AspectRatioFixed->False],
+Cell["b={1,1,1};", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"vlist=VertexEnumeration[m,b,SearchTree->True,\n             MonitoringFile->\
-\"stdout\"]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"{1, 2, 3}\n{4, 2, 3}\n{1, 4, 3}\n{1, 2, 4}\n{1, 5, 3}\n{4, 5, 3}\n{1, 5, 4}\n\
-{1, 2, 6}\n{4, 2, 6}\n{1, 4, 6}"], "Print",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+vlist=VertexEnumeration[m,b,SearchTree->True,
+             MonitoringFile->\"stdout\"]\
+\>", "Input",
+ AspectRatioFixed->False],
 
-Cell[OutputFormData[
-"\<\
+Cell["\<\
+{1, 2, 3}
+{4, 2, 3}
+{1, 4, 3}
+{1, 2, 4}
+{1, 5, 3}
+{4, 5, 3}
+{1, 5, 4}
+{1, 2, 6}
+{4, 2, 6}
+{1, 4, 6}\
+\>", "Print",
+ AspectRatioFixed->False],
+
+Cell[OutputFormData["\<\
 {{{0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {0, 1, 0}, 
    {0, 1, 0}, {0, 1, 0}, {0, 0, 1}, {0, 0, 1}, {0, 0, 1}}, 
   {{1, 2, 3}, {4, 2, 3}, {1, 4, 3, 5}, {1, 2, 4, 6}, 
@@ -12352,8 +12434,7 @@ Cell[OutputFormData[
    {4, 2, 6, 1}, {1, 4, 6, 2}}, 
   {{2, 1}, {3, 1}, {4, 1}, {5, 1}, {6, 5}, {7, 5}, {8, 1}, 
    {9, 8}, {10, 8}}}\
-\>", 
-"\<\
+\>", "\<\
 {{{0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {0, 1, 0}, 
  
    {0, 1, 0}, {0, 1, 0}, {0, 0, 1}, {0, 0, 1}, {0, 0, 1}}, 
@@ -12368,21 +12449,24 @@ Cell[OutputFormData[
  
    {9, 8}, {10, 8}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"Here is a way to draw the Avis-Fukuda search tree  by using a nice embedding \
-function of Combinatorica."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+Here is a way to draw the Avis-Fukuda search tree  by using a nice embedding \
+function of Combinatorica.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["STree=vlist[[3]];"], "Input",
-  AspectRatioFixed->False],
+Cell["STree=vlist[[3]];", "Input",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData[
-"ShowLabeledGraph[RankedEmbedding[FromUnorderedPairs[STree],{1}]]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
+
+Cell["\<\
+ShowLabeledGraph[RankedEmbedding[FromUnorderedPairs[STree],{1}]]\
+\>", "Input",
+ AspectRatioFixed->False],
 
 Cell[GraphicsData["PostScript", "\<\
 %!
@@ -12558,55 +12642,49 @@ grestore
 % End of Graphics
 MathPictureEnd\
 \>"], "Graphics",
-  Evaluatable->False,
-  AspectRatioFixed->True,
-  ImageSize->{282, 282},
-  ImageMargins->{{17, Inherited}, {Inherited, Inherited}},
-  ImageCacheValid->False],
+ ImageSize->{350, 350},
+ ImageRegion->{{0., 1.}, {0., 1.}}],
 
-Cell[OutputFormData[
-"\<\
+Cell[OutputFormData["\<\
 The Unformatted text for this cell was not generated.
 Use options in the Actions Settings dialog box to control
 when Unformatted text is generated.\
 \>", "\<\
 -Graphics-\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData[{
-  StyleBox["Dealing with Irrational Data in ",
-    Evaluatable->False,
-    AspectRatioFixed->False],
-  StyleBox["Mathematica",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[" 1.2",
-    Evaluatable->False,
-    AspectRatioFixed->False]
-}], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
 Cell[TextData[{
-  StyleBox["Mathematica",
-    Evaluatable->False,
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[
-  "  can handle irrational numbers, but we must be careful because some older \
-versions (Version 1.2 or earlier) do not simplify some trivial expressions \
-like ",
-    Evaluatable->False,
-    AspectRatioFixed->False]
-}], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+ StyleBox["Dealing with Irrational Data in ",
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["Mathematica",
+  FontSlant->"Italic",
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[" 1.2",
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Section",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["ir = 5* Sqrt[5] - 5^(3/2)  "], "Input",
-  AspectRatioFixed->False],
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox["  can handle irrational numbers, but we must be careful because \
+some older versions (Version 1.2 or earlier) do not simplify some trivial \
+expressions like ",
+  FontFamily->"Times"]
+}], "Text",
+ AspectRatioFixed->False],
+
+Cell[CellGroupData[{
+
+Cell["ir = 5* Sqrt[5] - 5^(3/2)  ", "Input",
+ AspectRatioFixed->False],
 
 Cell[OutputFormData["\<\
 5*5^(1/2) - 5^(3/2)\
@@ -12614,192 +12692,185 @@ Cell[OutputFormData["\<\
    1/2    3/2
 5 5    - 5\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]],
 
-Cell[TextData[
-"which is obviously zero.   This may cause some serious problems if you want \
+Cell["\<\
+which is obviously zero.   This may cause some serious problems if you want \
 to use irrational numbers in input data.    The separate small program \
 \"Power.m\" can be used with VertexEnumeration and PointEnumeration to \
 prevent such situations with irrational numbers of rational power type  p^q   \
-where both p and q are rational numbers."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+where both p and q are rational numbers.\
+\>", "Text",
+ AspectRatioFixed->False],
 
-Cell[TextData["m={{ir +1, ir + 5^(1/3), 1}};   b={1};"], "Input",
-  AspectRatioFixed->False],
+Cell["m={{ir +1, ir + 5^(1/3), 1}};   b={1};", "Input",
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox["<<Power.m;    (* this is for ",
-    AspectRatioFixed->False],
-  StyleBox["Mathematica",
-    AspectRatioFixed->False,
-    FontSlant->"Italic"],
-  StyleBox[" Version 1.2 *)",
-    AspectRatioFixed->False]
+ StyleBox["<<Power.m;    (* this is for ",
+  FontSize->12],
+ StyleBox["Mathematica",
+  FontSize->12,
+  FontSlant->"Italic"],
+ StyleBox[" Version 1.2 *)",
+  FontSize->12]
 }], "Input",
-  AspectRatioFixed->False],
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["vlist=VertexEnumeration[m,b]"], "Input",
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[OutputFormData[
-"\<\
+Cell["vlist=VertexEnumeration[m,b]", "Input",
+ AspectRatioFixed->False],
+
+Cell[OutputFormData["\<\
 {{{0, 0, 0}, {0, 5^(-1/3), 0}, {1, 0, 0}, {0, 0, 1}}, 
   {{1, 2, 3}, {1, 4, 3}, {2, 4, 3}, {1, 4, 2}}}\
-\>", 
-"\<\
+\>", "\<\
                   -(1/3)
 {{{0, 0, 0}, {0, 5      , 0}, {1, 0, 0}, {0, 0, 1}}, 
  
   {{1, 2, 3}, {1, 4, 3}, {2, 4, 3}, {1, 4, 2}}}\
 \>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->False]}, Open]]}, Open]],
+ AspectRatioFixed->False]
+}, Open  ]]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData["Supplementary Functions"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"There are some useful functions defined in the VertexEnum package.   We \
-shall introduce some of those below."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["Supplementary Functions", "Section",
+ AspectRatioFixed->False],
 
-Cell[CellGroupData[{Cell[TextData["Linear Programming"], "Subsection",
-  Evaluatable->False,
-  AspectRatioFixed->False],
+Cell["\<\
+There are some useful functions defined in the VertexEnum package.   We shall \
+introduce some of those below.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell["Linear Programming", "Subsection",
+ AspectRatioFixed->False],
 
 Cell[TextData[{
-  StyleBox[
-  "The problem of maximizing a linear function over a convex polyhedron is \
-known to be Linear programming.   A standard form of linear programming \
-problem (LP) is  ",
-    Evaluatable->False,
-    AspectRatioFixed->True],
-  StyleBox["maximize  c.x  subject to m.x <=b and x>=0",
-    Evaluatable->False,
-    AspectRatioFixed->True,
-    FontWeight->"Bold"],
-  StyleBox[
-  ", where  m  is a given  s x d matrix,  c and b are  given d-vector and \
-s-vector, respectively.    The function CrissCrossSolve solves this LP.",
-    Evaluatable->False,
-    AspectRatioFixed->True]
-}], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+ StyleBox["The problem of maximizing a linear function over a convex \
+polyhedron is known to be Linear programming.   A standard form of linear \
+programming problem (LP) is  ",
+  FontFamily->"Times"],
+ StyleBox["maximize  c.x  subject to m.x <=b and x>=0",
+  FontFamily->"Times",
+  FontWeight->"Bold"],
+ StyleBox[", where  m  is a given  s x d matrix,  c and b are  given d-vector \
+and s-vector, respectively.    The function CrissCrossSolve solves this LP.",
+  FontFamily->"Times"]
+}], "Text"],
 
-Cell[CellGroupData[{Cell[TextData["?CrissCrossSolve"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"CrissCrossSolve[c,m,b] solves the linear program \n   maximize c.x subject \
-to m.x<=b and x>=0 by the\n   Criss-Cross method. The output is {x*, v*, y*} \
-where\n   x* is an optimal solution, v* is an optimal value, and\n   y* is a \
-dual optimal solution. It warns if it is\n   infeasible or dualinfeasible"], 
-  "Info",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+Cell["?CrissCrossSolve", "Input"],
 
-Cell[CellGroupData[{Cell[TextData["m={{4, -3, 3}, {-2, 1, -3}};"], "Input",
-  AspectRatioFixed->True],
+Cell["\<\
+CrissCrossSolve[c,m,b] solves the linear program 
+   maximize c.x subject to m.x<=b and x>=0 by the
+   Criss-Cross method. The output is {x*, v*, y*} where
+   x* is an optimal solution, v* is an optimal value, and
+   y* is a dual optimal solution. It warns if it is
+   infeasible or dualinfeasible\
+\>", "Info"]
+}, Open  ]],
 
-Cell[TextData["c={1,-2,-4};  b={5,-3};"], "Input",
-  AspectRatioFixed->True]}, Open]],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["optimum=CrissCrossSolve[c,m,b]"], "Input",
-  AspectRatioFixed->True],
+Cell["m={{4, -3, 3}, {-2, 1, -3}};", "Input"],
+
+Cell["c={1,-2,-4};  b={5,-3};", "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["optimum=CrissCrossSolve[c,m,b]", "Input"],
 
 Cell[OutputFormData["\<\
 {{2, 1, 0}, 0, {3/2, 5/2}}\
-\>", 
-"\<\
+\>", "\<\
                 3  5
 {{2, 1, 0}, 0, {-, -}}
                 2  2\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
-Cell[TextData[
-"CrissCrossSolve always finds a vertex solution if the LP has an optimal \
-solution.  You can verify this by using VetexEnumeration. "], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["\<\
+CrissCrossSolve always finds a vertex solution if the LP has an optimal \
+solution.  You can verify this by using VetexEnumeration. \
+\>", "Text"],
 
-Cell[CellGroupData[{Cell[TextData["VertexEnumeration[m,b]"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
+
+Cell["VertexEnumeration[m,b]", "Input"],
 
 Cell[OutputFormData["\<\
 {{{2, 1, 0}, {1, 0, 1/3}, {0, 0, 5/3}, {0, 0, 1}}, 
   {{5, 4, 3}, {5, 4, 2}, {1, 4, 2}, {5, 1, 2}}}\
-\>", 
-"\<\
+\>", "\<\
                     1          5
 {{{2, 1, 0}, {1, 0, -}, {0, 0, -}, {0, 0, 1}}, 
                     3          3
  
   {{5, 4, 3}, {5, 4, 2}, {1, 4, 2}, {5, 1, 2}}}\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
 Cell[TextData[{
-  StyleBox["Mathematica",
-    Evaluatable->False,
-    AspectRatioFixed->True,
-    FontSlant->"Italic"],
-  StyleBox[
-  " has also LinearProgramming function which solves LP.  One has to be \
-little careful because some earliear versions of LinearProgramming function \
-(Version 2.0 or earlier) do not work correctly.   Also this function solves a \
-different form of LP, which is dual to our formulation.",
-    Evaluatable->False,
-    AspectRatioFixed->True]
-}], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+ StyleBox["Mathematica",
+  FontFamily->"Times",
+  FontSlant->"Italic"],
+ StyleBox[" has also LinearProgramming function which solves LP.  One has to \
+be little careful because some earliear versions of LinearProgramming \
+function (Version 2.0 or earlier) do not work correctly.   Also this function \
+solves a different form of LP, which is dual to our formulation.",
+  FontFamily->"Times"]
+}], "Text"],
 
-Cell[CellGroupData[{Cell[TextData["?LinearProgramming"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"LinearProgramming[c, m, b] finds the vector x which\n   minimizes the \
-quantity c.x subject to the constraints\n   m.x >= b and x >= 0."], "Info",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+Cell["?LinearProgramming", "Input"],
 
-Cell[TextData[
-"In order to solve the same LP as above, we must use the negatives of the \
-input arguments."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["\<\
+LinearProgramming[c, m, b] finds the vector x which
+   minimizes the quantity c.x subject to the constraints
+   m.x >= b and x >= 0.\
+\>", "Info"]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["LinearProgramming[-c,-m,-b]"], "Input",
-  AspectRatioFixed->True],
+Cell["\<\
+In order to solve the same LP as above, we must use the negatives of the \
+input arguments.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell["LinearProgramming[-c,-m,-b]", "Input"],
 
 Cell[OutputFormData["\<\
 {2, 1, 0}\
 \>", "\<\
 {2, 1, 0}\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
-Cell[TextData[
-"While LinearProgramming function often runs faster for rational inputs, it \
+Cell["\<\
+While LinearProgramming function often runs faster for rational inputs, it \
 does not allow any irrational inputs.   It is an advantage of CrissCrossSolve \
 that irrational inputs are allowed.  (The next one takes about 1 minute on \
-SE/30.)"], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+SE/30.)\
+\>", "Text"],
 
-Cell[CellGroupData[{Cell[TextData[
-"m={{1, Pi, E}, {E, 1, Pi}}; \nb={Log[5],Sqrt[3]};  c={E,Pi,Sqrt[5]};\n\
-opt=CrissCrossSolve[c,m,b]"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
+
+Cell["\<\
+m={{1, Pi, E}, {E, 1, Pi}}; 
+b={Log[5],Sqrt[3]};  c={E,Pi,Sqrt[5]};
+opt=CrissCrossSolve[c,m,b]\
+\>", "Input"],
 
 Cell[OutputFormData["\<\
 {{(3^(1/2)*Pi - Log[5])/(-1 + E*Pi), 
@@ -12808,8 +12879,7 @@ Cell[OutputFormData["\<\
      E*Pi*Log[5])/(-1 + E*Pi), 
   {-((E*(-1 + Pi))/(1 - E*Pi)), 
    -(((1 - E)*Pi)/(-1 + E*Pi))}}\
-\>", 
-"\<\
+\>", "\<\
   Sqrt[3] Pi - Log[5]  -Sqrt[3] + E Log[5]
 {{-------------------, -------------------, 0}, 
        -1 + E Pi            -1 + E Pi
@@ -12821,776 +12891,512 @@ Cell[OutputFormData["\<\
      E (-1 + Pi)     (1 - E) Pi
   {-(-----------), -(----------)}}
       1 - E Pi       -1 + E Pi\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
-Cell[TextData[
-"For LPs with no optimal solutions, CrissCrossSolve outputs the following \
-warnings."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["\<\
+For LPs with no optimal solutions, CrissCrossSolve outputs the following \
+warnings.\
+\>", "Text"],
 
-Cell[CellGroupData[{Cell[TextData["CrissCrossSolve[{1,1},{{2,3},{-2,-3}},{2,-4}]"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"VertexEnumeration::LpInfeasible: \n   linear program is infeasible."], 
-  "Message",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["CrissCrossSolve[{1,1},{{2,3},{-2,-3}},{2,-4}]", "Input"],
+
+Cell["\<\
+VertexEnumeration::LpInfeasible: 
+   linear program is infeasible.\
+\>", "Message"],
 
 Cell[OutputFormData["\<\
 {}\
 \>", "\<\
 {}\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
-Cell[CellGroupData[{Cell[TextData["CrissCrossSolve[{1,1},{{-2,3}},{-4}]"], "Input",
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
 
-Cell[TextData[
-"VertexEnumeration::LpDualInfeasible: \n   linear program is dual \
-infeasible."], "Message",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell["CrissCrossSolve[{1,1},{{-2,3}},{-4}]", "Input"],
+
+Cell["\<\
+VertexEnumeration::LpDualInfeasible: 
+   linear program is dual infeasible.\
+\>", "Message"],
 
 Cell[OutputFormData["\<\
 {}\
 \>", "\<\
 {}\
-\>"], "Output",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]],
+\>"], "Output"]
+}, Open  ]],
 
-Cell[TextData[
-"It should be noted that the dual infeasibility implies that the original \
+Cell["\<\
+It should be noted that the dual infeasibility implies that the original \
 problem is either unbounded or infeasible, i.e., cannot have an optimal \
-solution."], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]]}, Open]],
+solution.\
+\>", "Text"]
+}, Open  ]]
+}, Closed]],
 
-Cell[CellGroupData[{Cell[TextData["List of Exported Functions and Options"], "Section",
-  Evaluatable->False,
-  AspectRatioFixed->True],
+Cell[CellGroupData[{
 
-Cell[CellGroupData[{Cell[TextData["?VertexEnum`*"], "Input",
-  AspectRatioFixed->True],
+Cell["List of Exported Functions and Options", "Section"],
 
-Cell[TextData[
-"AdjacentQ          MaximalQ           SearchTree\nBlandSolve         \
-MaximalSets        SubsetQ\nCrissCrossSolve    MonitoringFile     VE\n\
-EdgesOfPolyhedron  PE                 VertexEnumeration\nFaces              \
-PointEnumeration   ZeroVariables\nLinesOfArrangement Polyhedron3D"], "Info",
-  Evaluatable->False,
-  AspectRatioFixed->True]}, Open]]}, Open]],
+Cell[CellGroupData[{
 
-Cell[TextData["(* This is the end of VertexEnum-notebook  *)"], "Text",
-  Evaluatable->False,
-  AspectRatioFixed->True]
+Cell["?VertexEnum`*", "Input"],
+
+Cell["\<\
+AdjacentQ          MaximalQ           SearchTree
+BlandSolve         MaximalSets        SubsetQ
+CrissCrossSolve    MonitoringFile     VE
+EdgesOfPolyhedron  PE                 VertexEnumeration
+Faces              PointEnumeration   ZeroVariables
+LinesOfArrangement Polyhedron3D\
+\>", "Info"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["(* This is the end of VertexEnum-notebook  *)", "Text"]
 },
-FrontEndVersion->"Macintosh 3.0",
-ScreenRectangle->{{0, 832}, {0, 604}},
-AutoGeneratedPackage->None,
+AutoGeneratedPackage->Automatic,
 WindowToolbars->{},
 CellGrouping->Manual,
-WindowSize->{520, 509},
-WindowMargins->{{84, Automatic}, {Automatic, 1}},
-PrivateNotebookOptions->{"ColorPalette"->{RGBColor, -1}},
+WindowSize->{808, 587},
+WindowMargins->{{44, Automatic}, {-4, Automatic}},
 ShowCellLabel->True,
 ShowCellTags->False,
-RenderingOptions->{"ObjectDithering"->True,
-"RasterDithering"->False},
-MacintoshSystemPageSetup->"\<\
-00<0001804P000000]P2:?oQon82n@960dL5:0?l0080001804P000000]P2:001
-0000I00000400`<300000BL?00400@00000000000000060001T1T00000000000
-00000000000000000000000000000000\>"
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September 9, \
+2014)",
+StyleDefinitions->"Default.nb"
 ]
+(* End of Notebook Content *)
 
-
-
-(***********************************************************************
-Cached data follows.  If you edit this Notebook file directly, not using
-Mathematica, you must remove the line containing CacheID at the top of 
-the file.  The cache data will then be recreated when you save this file 
-from within Mathematica.
-***********************************************************************)
-
+(* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{}
 *)
-
 (*CellTagsIndex
 CellTagsIndex->{}
 *)
-
 (*NotebookFileOutline
 Notebook[{
-
 Cell[CellGroupData[{
-Cell[1731, 51, 680, 25, 70, "Title",
-  Evaluatable->False],
-Cell[2414, 78, 30850, 1636, 70, 30699, 1631, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[33267, 1716, 326, 6, 70, "Subsubtitle",
-  Evaluatable->False],
-
+Cell[553, 21, 549, 19, 246, "Title"],
+Cell[1105, 42, 37342, 1742, 358, 30699, 1631, "GraphicsData", "PostScript", \
+"Graphics"],
+Cell[38450, 1786, 285, 12, 209, "Subsubtitle"],
 Cell[CellGroupData[{
-Cell[33616, 1724, 608, 17, 70, "Text",
-  Evaluatable->False],
-Cell[34227, 1743, 181, 4, 70, "Text",
-  Evaluatable->False],
-Cell[34411, 1749, 2767, 93, 70, "Text",
-  Evaluatable->False],
-Cell[37181, 1844, 535, 17, 70, "Text",
-  Evaluatable->False],
-Cell[37719, 1863, 548, 16, 70, "Text",
-  Evaluatable->False],
-Cell[38270, 1881, 528, 8, 70, "Text",
-  Evaluatable->False]
+Cell[38760, 1802, 487, 12, 70, "Text"],
+Cell[39250, 1816, 155, 4, 70, "Text"],
+Cell[39408, 1822, 1994, 64, 70, "Text"],
+Cell[41405, 1888, 411, 11, 70, "Text"],
+Cell[41819, 1901, 427, 11, 70, "Text"],
+Cell[42249, 1914, 497, 10, 70, "Text"]
 }, Open  ]]
 }, Open  ]],
-Cell[38819, 1891, 97, 2, 70, "Input",
-  InitializationCell->True],
-Cell[38919, 1895, 127, 2, 70, "Input",
-  InitializationCell->True],
-
+Cell[42773, 1928, 85, 2, 70, "Input",
+ InitializationCell->True],
+Cell[42861, 1932, 90, 1, 70, "Input",
+ InitializationCell->True],
 Cell[CellGroupData[{
-Cell[39069, 1899, 118, 2, 70, "Section",
-  Evaluatable->False],
-Cell[39190, 1903, 521, 17, 70, "Text",
-  Evaluatable->False],
-Cell[39714, 1922, 8148, 438, 70, 7998, 433, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[47865, 2362, 126, 2, 70, "Text",
-  Evaluatable->False],
-Cell[47994, 2366, 998, 32, 70, "Text",
-  Evaluatable->False],
-Cell[48995, 2400, 339, 12, 70, "Text",
-  Evaluatable->False],
-Cell[49337, 2414, 50078, 2602, 70, 49920, 2597, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[99418, 5018, 1066, 33, 70, "Text",
-  Evaluatable->False],
-Cell[100487, 5053, 502, 8, 70, "Text",
-  Evaluatable->False]
+Cell[42976, 1937, 85, 1, 70, "Section"],
+Cell[43064, 1940, 397, 11, 70, "Text"],
+Cell[43464, 1953, 8058, 435, 70, "Graphics"],
+Cell[51525, 2390, 93, 1, 70, "Text"],
+Cell[51621, 2393, 746, 22, 70, "Text"],
+Cell[52370, 2417, 249, 8, 70, "Text"],
+Cell[52622, 2427, 49980, 2599, 70, "Graphics"],
+Cell[102605, 5028, 814, 23, 70, "Text"],
+Cell[103422, 5053, 461, 11, 70, "Text"]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[101021, 5063, 101, 2, 70, "Section",
-  Evaluatable->False],
-
+Cell[103920, 5069, 68, 1, 70, "Section"],
 Cell[CellGroupData[{
-Cell[101145, 5067, 111, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[101259, 5071, 176, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[104013, 5074, 78, 1, 70, "Subsection"],
+Cell[104094, 5077, 150, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[101458, 5077, 71, 1, 70, "Input"],
-
+Cell[104269, 5085, 60, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[101552, 5080, 104, 1, 70, "Input"],
-Cell[101659, 5083, 170, 7, 70, "Output",
-  Evaluatable->False]
+Cell[104354, 5090, 93, 1, 70, "Input"],
+Cell[104450, 5093, 146, 5, 70, "Output"]
 }, Open  ]],
-Cell[101841, 5092, 107, 2, 70, "Text",
-  Evaluatable->False],
-
+Cell[104611, 5101, 74, 1, 70, "Text"],
 Cell[CellGroupData[{
-Cell[101971, 5096, 95, 1, 70, "Input"],
-Cell[102069, 5099, 123, 6, 70, "Output",
-  Evaluatable->False]
+Cell[104710, 5106, 91, 4, 70, "Input"],
+Cell[104804, 5112, 100, 5, 70, "Output"]
 }, Open  ]],
-Cell[102204, 5107, 219, 5, 70, "Text",
-  Evaluatable->False],
-
+Cell[104919, 5120, 191, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[102446, 5114, 82, 1, 70, "Input"],
-Cell[102531, 5117, 638, 20, 70, "Output",
-  Evaluatable->False]
+Cell[105135, 5128, 71, 1, 70, "Input"],
+Cell[105209, 5131, 615, 19, 70, "Output"]
 }, Open  ]],
-Cell[103181, 5139, 1918, 66, 70, "Text",
-  Evaluatable->False],
-Cell[105102, 5207, 98, 1, 70, "Input"],
-Cell[105203, 5210, 172, 4, 70, "Text",
-  Evaluatable->False],
-Cell[105378, 5216, 109, 2, 70, "Input"],
-
+Cell[105839, 5153, 1349, 47, 70, "Text"],
+Cell[107191, 5202, 87, 1, 70, "Input"],
+Cell[107281, 5205, 146, 4, 70, "Text"],
+Cell[107430, 5211, 72, 0, 70, "Input"],
 Cell[CellGroupData[{
-Cell[105510, 5220, 102, 1, 70, "Input"],
-Cell[105615, 5223, 3906, 196, 70, 3748, 191, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[107527, 5215, 91, 1, 70, "Input"],
+Cell[107621, 5218, 3825, 193, 70, "Graphics"]
 }, Open  ]]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[109562, 5421, 347, 6, 70, "Text",
-  Evaluatable->False],
-
+Cell[111495, 5417, 321, 6, 70, "Text"],
 Cell[CellGroupData[{
-Cell[109932, 5429, 81, 1, 70, "Input"],
-Cell[110016, 5432, 1408, 44, 70, "Output",
-  Evaluatable->False],
-Cell[111427, 5478, 200, 4, 70, "Text",
-  Evaluatable->False]
+Cell[111841, 5427, 70, 1, 70, "Input"],
+Cell[111914, 5430, 1385, 43, 70, "Output"],
+Cell[113302, 5475, 174, 4, 70, "Text"]
 }, Open  ]],
-Cell[111639, 5484, 137, 3, 70, "Input"],
-
+Cell[113491, 5482, 130, 4, 70, "Input"],
 Cell[CellGroupData[{
-Cell[111799, 5489, 125, 3, 70, "Input"],
-Cell[111927, 5494, 4876, 268, 70, 4718, 263, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[113646, 5490, 117, 4, 70, "Input"],
+Cell[113766, 5496, 4784, 265, 70, "Graphics"]
 }, Open  ]]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[116844, 5764, 231, 5, 70, "Text",
-  Evaluatable->False],
-
+Cell[118599, 5767, 202, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[117098, 5771, 91, 1, 70, "Input"],
-Cell[117192, 5774, 93, 1, 70, "Input"],
-Cell[117288, 5777, 206, 4, 70, "Input"],
-
+Cell[118826, 5775, 80, 1, 70, "Input"],
+Cell[118909, 5778, 82, 1, 70, "Input"],
+Cell[118994, 5781, 193, 7, 70, "Input"],
 Cell[CellGroupData[{
-Cell[117517, 5783, 119, 2, 70, "Input"],
-Cell[117639, 5787, 7279, 448, 70, 7121, 443, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[124921, 6237, 268, 10, 70, "Output",
-  Evaluatable->False]
+Cell[119212, 5792, 114, 4, 70, "Input"],
+Cell[119329, 5798, 7186, 445, 70, "Graphics"],
+Cell[126518, 6245, 243, 7, 70, "Output"]
 }, Open  ]]
 }, Open  ]],
-Cell[125210, 6249, 184, 4, 70, "Input"]
+Cell[126788, 6256, 170, 8, 70, "Input"]
 }, Open  ]]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[125435, 6255, 119, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[125557, 6259, 284, 5, 70, "Text",
-  Evaluatable->False],
-
+Cell[127007, 6270, 86, 1, 70, "Subsection"],
+Cell[127096, 6273, 254, 6, 70, "Text"],
 Cell[CellGroupData[{
-Cell[125864, 6266, 71, 1, 70, "Input"],
-
+Cell[127375, 6283, 60, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[125958, 6269, 104, 1, 70, "Input"],
-Cell[126065, 6272, 207, 8, 70, "Output",
-  Evaluatable->False]
+Cell[127460, 6288, 93, 1, 70, "Input"],
+Cell[127556, 6291, 182, 5, 70, "Output"]
 }, Open  ]],
-Cell[126284, 6282, 340, 13, 70, "Text",
-  Evaluatable->False],
-Cell[126627, 6297, 74, 1, 70, "Input"],
-Cell[126704, 6300, 246, 5, 70, "Text",
-  Evaluatable->False],
-
+Cell[127753, 6299, 222, 9, 70, "Text"],
+Cell[127978, 6310, 63, 1, 70, "Input"],
+Cell[128044, 6313, 220, 5, 70, "Text"],
 Cell[CellGroupData[{
-Cell[126973, 6307, 97, 1, 70, "Input"],
-Cell[127073, 6310, 1389, 51, 70, "Output",
-  Evaluatable->False]
+Cell[128289, 6322, 86, 1, 70, "Input"],
+Cell[128378, 6325, 1366, 50, 70, "Output"]
 }, Open  ]],
-Cell[128474, 6363, 98, 1, 70, "Input"]
+Cell[129759, 6378, 87, 1, 70, "Input"]
 }, Open  ]],
-Cell[128584, 6366, 406, 13, 70, "Text",
-  Evaluatable->False],
-
+Cell[129861, 6382, 288, 9, 70, "Text"],
 Cell[CellGroupData[{
-Cell[129013, 6381, 89, 1, 70, "Input"],
-Cell[129105, 6384, 836, 25, 70, "Output",
-  Evaluatable->False]
+Cell[130174, 6395, 78, 1, 70, "Input"],
+Cell[130255, 6398, 812, 23, 70, "Output"]
 }, Open  ]],
-Cell[129953, 6411, 174, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[131082, 6424, 148, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[130150, 6417, 77, 1, 70, "Input"],
-Cell[130230, 6420, 720, 28, 70, "Output",
-  Evaluatable->False]
+Cell[131255, 6432, 66, 1, 70, "Input"],
+Cell[131324, 6435, 696, 26, 70, "Output"]
 }, Open  ]],
-Cell[130962, 6450, 1414, 50, 70, "Text",
-  Evaluatable->False],
-
+Cell[132035, 6464, 973, 35, 70, "Text"],
 Cell[CellGroupData[{
-Cell[132399, 6502, 79, 1, 70, "Input"],
-Cell[132481, 6505, 720, 28, 70, "Output",
-  Evaluatable->False]
+Cell[133033, 6503, 68, 1, 70, "Input"],
+Cell[133104, 6506, 696, 26, 70, "Output"]
 }, Open  ]],
-Cell[133213, 6535, 186, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[133815, 6535, 160, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[133422, 6541, 87, 1, 70, "Input"],
-Cell[133512, 6544, 552, 19, 70, "Output",
-  Evaluatable->False]
+Cell[134000, 6543, 76, 1, 70, "Input"],
+Cell[134079, 6546, 528, 17, 70, "Output"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[134096, 6565, 183, 4, 70, "Text",
-  Evaluatable->False],
-Cell[134282, 6571, 135, 3, 70, "Text",
-  Evaluatable->False],
-
+Cell[134644, 6568, 157, 4, 70, "Text"],
+Cell[134804, 6574, 101, 1, 70, "Text"],
 Cell[CellGroupData[{
-Cell[134440, 6576, 90, 1, 70, "Input"],
-Cell[134533, 6579, 117, 2, 70, "Message",
-  Evaluatable->False]
+Cell[134930, 6579, 79, 1, 70, "Input"],
+Cell[135012, 6582, 59, 0, 70, "Message"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[134682, 6583, 103, 1, 70, "Input"],
-Cell[134788, 6586, 9487, 536, 70, 9329, 531, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[144278, 7124, 266, 10, 70, "Output",
-  Evaluatable->False]
+Cell[135108, 6587, 92, 1, 70, "Input"],
+Cell[135203, 6590, 9389, 533, 70, "Graphics"],
+Cell[144595, 7125, 241, 7, 70, "Output"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[144576, 7136, 106, 1, 70, "Input"],
-Cell[144685, 7139, 6222, 366, 70, 6064, 361, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[150910, 7507, 266, 10, 70, "Output",
-  Evaluatable->False]
+Cell[144873, 7137, 95, 1, 70, "Input"],
+Cell[144971, 7140, 6124, 363, 70, "Graphics"],
+Cell[151098, 7505, 241, 7, 70, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[151235, 7519, 94, 2, 70, "Section",
-  Evaluatable->False],
-
+Cell[151412, 7520, 61, 1, 70, "Section"],
 Cell[CellGroupData[{
-Cell[151352, 7523, 103, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[151458, 7527, 622, 10, 70, "Text",
-  Evaluatable->False],
-Cell[152083, 7539, 3918, 225, 70, 3760, 220, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[156004, 7766, 29660, 1704, 70, 29502, 1699, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[185667, 9472, 152, 4, 70, "Text",
-  Evaluatable->False],
-Cell[185822, 9478, 102, 1, 70, "Input"],
-
+Cell[151498, 7525, 70, 1, 70, "Subsection"],
+Cell[151571, 7528, 596, 10, 70, "Text"],
+Cell[152170, 7540, 3820, 222, 70, "Graphics"],
+Cell[155993, 7764, 29562, 1701, 70, "Graphics"],
+Cell[185558, 9467, 123, 3, 70, "Text"],
+Cell[185684, 9472, 91, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[185947, 9481, 157, 3, 70, "Input"],
-Cell[186107, 9486, 203, 8, 70, "Output",
-  Evaluatable->False]
+Cell[185800, 9477, 148, 6, 70, "Input"],
+Cell[185951, 9485, 178, 5, 70, "Output"]
 }, Open  ]],
-Cell[186322, 9496, 205, 4, 70, "Text",
-  Evaluatable->False],
-Cell[186530, 9502, 150, 3, 70, "Input"],
-Cell[186683, 9507, 225, 4, 70, "Input"],
-
+Cell[186144, 9493, 179, 4, 70, "Text"],
+Cell[186326, 9499, 136, 3, 70, "Input"],
+Cell[186465, 9504, 214, 6, 70, "Input"],
 Cell[CellGroupData[{
-Cell[186931, 9513, 133, 3, 70, "Input"],
-Cell[187067, 9518, 1215, 68, 70, 1057, 63, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[186704, 9514, 126, 4, 70, "Input"],
+Cell[186833, 9520, 1117, 65, 70, "Graphics"]
 }, Open  ]],
-Cell[188294, 9588, 669, 10, 70, "Text",
-  Evaluatable->False],
-Cell[188966, 9600, 23705, 736, 70, 23547, 731, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[212674, 10338, 191, 3, 70, "Input"],
-Cell[212868, 10343, 379, 7, 70, "Text",
-  Evaluatable->False],
-
+Cell[187965, 9588, 642, 11, 70, "Text"],
+Cell[188610, 9601, 23607, 733, 70, "Graphics"],
+Cell[212220, 10336, 182, 6, 70, "Input"],
+Cell[212405, 10344, 348, 8, 70, "Text"],
 Cell[CellGroupData[{
-Cell[213270, 10352, 149, 3, 70, "Input"],
-Cell[213422, 10357, 156, 3, 70, "Input"],
-Cell[213581, 10362, 155, 3, 70, "Input"],
-Cell[213739, 10367, 161, 3, 70, "Input"],
-Cell[213903, 10372, 145, 3, 70, "Input"]
+Cell[212778, 10356, 135, 3, 70, "Input"],
+Cell[212916, 10361, 142, 3, 70, "Input"],
+Cell[213061, 10366, 141, 3, 70, "Input"],
+Cell[213205, 10371, 147, 3, 70, "Input"],
+Cell[213355, 10376, 131, 3, 70, "Input"]
 }, Open  ]],
-Cell[214060, 10377, 153, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[213501, 10382, 124, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[214236, 10383, 157, 3, 70, "Input"],
-Cell[214396, 10388, 1376, 40, 70, "Output",
-  Evaluatable->False]
+Cell[213650, 10390, 143, 3, 70, "Input"],
+Cell[213796, 10395, 1352, 38, 70, "Output"]
 }, Open  ]],
-Cell[215784, 10430, 235, 5, 70, "Text",
-  Evaluatable->False],
-Cell[216022, 10437, 129, 3, 70, "Input"],
-
+Cell[215163, 10436, 207, 4, 70, "Text"],
+Cell[215373, 10442, 121, 4, 70, "Input"],
 Cell[CellGroupData[{
-Cell[216174, 10442, 160, 3, 70, "Input"],
-Cell[216337, 10447, 3454, 166, 70, 3296, 161, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[215519, 10450, 152, 5, 70, "Input"],
+Cell[215674, 10457, 3356, 163, 70, "Graphics"]
 }, Open  ]],
-Cell[219803, 10615, 168, 4, 70, "Text",
-  Evaluatable->False],
-Cell[219974, 10621, 161, 3, 70, "Input"],
-Cell[220138, 10626, 168, 4, 70, "Input"],
-Cell[220309, 10632, 119, 2, 70, "Input"],
-Cell[220431, 10636, 310, 6, 70, "Input"],
-Cell[220744, 10644, 174, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[219045, 10623, 142, 4, 70, "Text"],
+Cell[219190, 10629, 147, 3, 70, "Input"],
+Cell[219340, 10634, 153, 3, 70, "Input"],
+Cell[219496, 10639, 114, 4, 70, "Input"],
+Cell[219613, 10645, 295, 5, 70, "Input"],
+Cell[219911, 10652, 148, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[220941, 10650, 161, 3, 70, "Input"],
-Cell[221105, 10655, 6310, 352, 70, 6152, 347, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[227418, 11009, 268, 10, 70, "Output",
-  Evaluatable->False]
+Cell[220084, 10660, 153, 5, 70, "Input"],
+Cell[220240, 10667, 6227, 349, 70, "Graphics"],
+Cell[226470, 11018, 243, 7, 70, "Output"]
 }, Open  ]],
-Cell[227698, 11021, 263, 5, 70, "Text",
-  Evaluatable->False],
-
+Cell[226728, 11028, 237, 5, 70, "Text"],
 Cell[CellGroupData[{
-Cell[227984, 11028, 139, 3, 70, "Input"],
-Cell[228126, 11033, 148, 3, 70, "Input"],
-
+Cell[226990, 11037, 125, 3, 70, "Input"],
+Cell[227118, 11042, 134, 3, 70, "Input"],
 Cell[CellGroupData[{
-Cell[228297, 11038, 220, 5, 70, "Input"],
-Cell[228520, 11045, 241, 11, 70, "Output",
-  Evaluatable->False]
+Cell[227277, 11049, 205, 4, 70, "Input"],
+Cell[227485, 11055, 216, 8, 70, "Output"]
 }, Open  ]],
-Cell[228773, 11058, 172, 4, 70, "Input"],
-Cell[228948, 11064, 206, 4, 70, "Input"]
+Cell[227716, 11066, 159, 4, 70, "Input"],
+Cell[227878, 11072, 194, 6, 70, "Input"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[229186, 11070, 158, 3, 70, "Input"],
-Cell[229347, 11075, 3663, 246, 70, 3505, 241, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[228109, 11083, 150, 5, 70, "Input"],
+Cell[228262, 11090, 3565, 243, 70, "Graphics"]
 }, Open  ]]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[233051, 11323, 97, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[233151, 11327, 270, 5, 70, "Text",
-  Evaluatable->False],
-Cell[233424, 11334, 100, 1, 70, "Input"],
-
+Cell[231876, 11339, 64, 1, 70, "Subsection"],
+Cell[231943, 11342, 244, 5, 70, "Text"],
+Cell[232190, 11349, 89, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[233547, 11337, 166, 3, 70, "Input"],
-Cell[233716, 11342, 276, 10, 70, "Output",
-  Evaluatable->False]
+Cell[232304, 11354, 156, 7, 70, "Input"],
+Cell[232463, 11363, 252, 8, 70, "Output"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[234024, 11354, 89, 1, 70, "Input"],
-Cell[234116, 11357, 96, 1, 70, "Input"],
-Cell[234215, 11360, 95, 1, 70, "Input"],
-Cell[234313, 11363, 66, 1, 70, "Input"]
+Cell[232752, 11376, 78, 1, 70, "Input"],
+Cell[232833, 11379, 85, 1, 70, "Input"],
+Cell[232921, 11382, 84, 1, 70, "Input"],
+Cell[233008, 11385, 55, 1, 70, "Input"]
 }, Open  ]],
-Cell[234391, 11366, 332, 6, 70, "Text",
-  Evaluatable->False],
-Cell[234726, 11374, 116, 2, 70, "Text",
-  Evaluatable->False],
-
+Cell[233078, 11389, 306, 6, 70, "Text"],
+Cell[233387, 11397, 83, 1, 70, "Text"],
 Cell[CellGroupData[{
-Cell[234865, 11378, 97, 1, 70, "Input"],
-Cell[234965, 11381, 3773, 121, 70, "Output",
-  Evaluatable->False]
+Cell[233495, 11402, 86, 1, 70, "Input"],
+Cell[233584, 11405, 3749, 119, 70, "Output"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[238770, 11504, 79, 1, 70, "Input"],
-Cell[238852, 11507, 88, 1, 70, "Input"],
-Cell[238943, 11510, 161, 3, 70, "Input"],
-Cell[239107, 11515, 100, 1, 70, "Input"]
+Cell[237370, 11529, 68, 1, 70, "Input"],
+Cell[237441, 11532, 77, 1, 70, "Input"],
+Cell[237521, 11535, 153, 5, 70, "Input"],
+Cell[237677, 11542, 89, 1, 70, "Input"]
 }, Open  ]],
-Cell[239219, 11518, 186, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[237781, 11546, 160, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[239428, 11524, 163, 3, 70, "Input"],
-Cell[239594, 11529, 3001, 168, 70, 2843, 163, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[237966, 11554, 153, 7, 70, "Input"],
+Cell[238122, 11563, 2903, 165, 70, "Graphics"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[242645, 11699, 89, 2, 70, "Section",
-  Evaluatable->False],
-
+Cell[241086, 11735, 56, 1, 70, "Section"],
 Cell[CellGroupData[{
-Cell[242757, 11703, 106, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[242866, 11707, 260, 5, 70, "Text",
-  Evaluatable->False],
-Cell[243129, 11714, 114, 2, 70, "Text",
-  Evaluatable->False],
-
+Cell[241167, 11740, 73, 1, 70, "Subsection"],
+Cell[241243, 11743, 234, 5, 70, "Text"],
+Cell[241480, 11750, 81, 1, 70, "Text"],
 Cell[CellGroupData[{
-Cell[243266, 11718, 74, 1, 70, "Input"],
-
+Cell[241586, 11755, 63, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[243363, 11721, 122, 3, 70, "Input"],
-Cell[243488, 11726, 364, 13, 70, "Output",
-  Evaluatable->False]
+Cell[241674, 11760, 115, 4, 70, "Input"],
+Cell[241792, 11766, 344, 11, 70, "Output"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[243884, 11741, 108, 2, 70, "Input"],
-Cell[243995, 11745, 104, 6, 70, "Output",
-  Evaluatable->False]
+Cell[242173, 11782, 78, 3, 70, "Input"],
+Cell[242254, 11787, 56, 4, 70, "Output"]
 }, Open  ]],
-Cell[244111, 11753, 135, 3, 70, "Input"],
-
+Cell[242325, 11794, 128, 4, 70, "Input"],
 Cell[CellGroupData[{
-Cell[244269, 11758, 110, 2, 70, "Input"],
-Cell[244382, 11762, 2476, 148, 70, 2318, 143, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[242478, 11802, 98, 1, 70, "Input"],
+Cell[242579, 11805, 1733, 145, 70, "Graphics"]
 }, Open  ]],
-Cell[246870, 11912, 647, 10, 70, "Text",
-  Evaluatable->False],
-Cell[247520, 11924, 195, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[244327, 11953, 619, 12, 70, "Text"],
+Cell[244949, 11967, 169, 4, 70, "Text"],
 Cell[CellGroupData[{
-Cell[247738, 11930, 95, 1, 70, "Input"],
-Cell[247836, 11933, 163, 8, 70, "Output",
-  Evaluatable->False]
+Cell[245143, 11975, 84, 1, 70, "Input"],
+Cell[245230, 11978, 128, 7, 70, "Output"]
 }, Open  ]],
-Cell[248011, 11943, 99, 1, 70, "Input"],
-
+Cell[245373, 11988, 88, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[248133, 11946, 73, 1, 70, "Input"],
-Cell[248209, 11949, 71, 1, 70, "Input"],
-Cell[248283, 11952, 72, 1, 70, "Input"]
+Cell[245486, 11993, 62, 1, 70, "Input"],
+Cell[245551, 11996, 60, 1, 70, "Input"],
+Cell[245614, 11999, 61, 1, 70, "Input"]
 }, Open  ]],
-Cell[248367, 11955, 164, 4, 70, "Text",
-  Evaluatable->False],
-Cell[248534, 11961, 87, 1, 70, "Input"],
-
+Cell[245690, 12003, 135, 4, 70, "Text"],
+Cell[245828, 12009, 76, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[248644, 11964, 83, 1, 70, "Input"],
-Cell[248730, 11967, 748, 20, 70, "Output",
-  Evaluatable->False],
-Cell[249481, 11989, 151, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[245929, 12014, 72, 1, 70, "Input"],
+Cell[246004, 12017, 866, 27, 70, "Output"],
+Cell[246873, 12046, 97, 2, 70, "Text"],
 Cell[CellGroupData[{
-Cell[249655, 11995, 104, 1, 70, "Input"],
-Cell[249762, 11998, 316, 10, 70, "Output",
-  Evaluatable->False]
+Cell[246995, 12052, 93, 1, 70, "Input"],
+Cell[247091, 12055, 372, 11, 70, "Output"]
 }, Open  ]],
-Cell[250090, 12010, 132, 3, 70, "Input"],
-Cell[250225, 12015, 85, 1, 70, "Input"],
-Cell[250313, 12018, 107, 2, 70, "Input"],
-Cell[250423, 12022, 82, 1, 70, "Input"],
-Cell[250508, 12025, 107, 2, 70, "Input"],
-
+Cell[247478, 12069, 102, 3, 70, "Input"],
+Cell[247583, 12074, 49, 0, 70, "Input"],
+Cell[247635, 12076, 70, 0, 70, "Input"],
+Cell[247708, 12078, 46, 0, 70, "Input"],
+Cell[247757, 12080, 70, 0, 70, "Input"],
 Cell[CellGroupData[{
-Cell[250638, 12029, 104, 1, 70, "Input"],
-Cell[250745, 12032, 3681, 190, 70, 3523, 185, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False]
+Cell[247852, 12084, 93, 1, 70, "Input"],
+Cell[247948, 12087, 2843, 207, 70, "Graphics"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[254485, 12224, 100, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[254588, 12228, 239, 5, 70, "Text",
-  Evaluatable->False]
+Cell[250864, 12302, 67, 1, 70, "Subsection"],
+Cell[250934, 12305, 212, 6, 70, "Text"]
 }, Closed]]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[254868, 12235, 101, 2, 70, "Section",
-  Evaluatable->False],
-
+Cell[251195, 12317, 68, 1, 70, "Section"],
 Cell[CellGroupData[{
-Cell[254992, 12239, 107, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[255102, 12243, 785, 25, 70, "Text",
-  Evaluatable->False],
-Cell[255890, 12270, 82, 1, 70, "Input"],
-Cell[255975, 12273, 64, 1, 70, "Input"],
-
+Cell[251288, 12322, 74, 1, 70, "Subsection"],
+Cell[251365, 12325, 597, 17, 70, "Text"],
+Cell[251965, 12344, 71, 1, 70, "Input"],
+Cell[252039, 12347, 53, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[256062, 12276, 110, 2, 70, "Input"],
-Cell[256175, 12280, 118, 2, 70, "Print",
-  Evaluatable->False],
-Cell[256296, 12284, 308, 10, 70, "Output",
-  Evaluatable->False]
+Cell[252117, 12352, 98, 1, 70, "Input"],
+Cell[252218, 12355, 90, 6, 70, "Print"],
+Cell[252311, 12363, 284, 8, 70, "Output"]
 }, Open  ]]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[256645, 12296, 107, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[256755, 12300, 855, 26, 70, "Text",
-  Evaluatable->False],
-Cell[257613, 12328, 82, 1, 70, "Input"],
-Cell[257698, 12331, 64, 1, 70, "Input"],
-
+Cell[252644, 12377, 74, 1, 70, "Subsection"],
+Cell[252721, 12380, 667, 18, 70, "Text"],
+Cell[253391, 12400, 71, 1, 70, "Input"],
+Cell[253465, 12403, 53, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[257785, 12334, 144, 3, 70, "Input"],
-Cell[257932, 12339, 187, 4, 70, "Print",
-  Evaluatable->False],
-Cell[258122, 12345, 807, 26, 70, "Output",
-  Evaluatable->False]
+Cell[253543, 12408, 137, 4, 70, "Input"],
+Cell[253683, 12414, 150, 12, 70, "Print"],
+Cell[253836, 12428, 782, 23, 70, "Output"]
 }, Open  ]],
-Cell[258941, 12373, 181, 4, 70, "Text",
-  Evaluatable->False],
-Cell[259125, 12379, 71, 1, 70, "Input"],
-
+Cell[254633, 12454, 155, 4, 70, "Text"],
+Cell[254791, 12460, 60, 1, 70, "Input"],
 Cell[CellGroupData[{
-Cell[259219, 12382, 119, 2, 70, "Input"],
-Cell[259341, 12386, 2732, 178, 70, 2574, 173, "GraphicsData", 
-"PostScript", "Graphics",
-  Evaluatable->False],
-Cell[262076, 12566, 261, 9, 70, "Output",
-  Evaluatable->False]
+Cell[254876, 12465, 115, 3, 70, "Input"],
+Cell[254994, 12470, 2634, 175, 70, "Graphics"],
+Cell[257631, 12647, 237, 7, 70, "Output"]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[262387, 12577, 357, 13, 70, "Section",
-  Evaluatable->False],
-Cell[262747, 12592, 411, 13, 70, "Text",
-  Evaluatable->False],
-
+Cell[257929, 12661, 275, 9, 70, "Section"],
+Cell[258207, 12672, 321, 9, 70, "Text"],
 Cell[CellGroupData[{
-Cell[263181, 12607, 81, 1, 70, "Input"],
-Cell[263265, 12610, 146, 7, 70, "Output",
-  Evaluatable->False]
+Cell[258553, 12685, 70, 1, 70, "Input"],
+Cell[258626, 12688, 123, 6, 70, "Output"]
 }, Open  ]],
-Cell[263423, 12619, 420, 7, 70, "Text",
-  Evaluatable->False],
-Cell[263846, 12628, 92, 1, 70, "Input"],
-Cell[263941, 12631, 269, 9, 70, "Input"],
-
+Cell[258764, 12697, 394, 7, 70, "Text"],
+Cell[259161, 12706, 81, 1, 70, "Input"],
+Cell[259245, 12709, 224, 9, 70, "Input"],
 Cell[CellGroupData[{
-Cell[264233, 12642, 82, 1, 70, "Input"],
-Cell[264318, 12645, 335, 12, 70, "Output",
-  Evaluatable->False]
+Cell[259494, 12722, 71, 1, 70, "Input"],
+Cell[259568, 12725, 310, 9, 70, "Output"]
 }, Open  ]]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[264694, 12659, 101, 2, 70, "Section",
-  Evaluatable->False],
-Cell[264798, 12663, 185, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[259927, 12740, 68, 1, 70, "Section"],
+Cell[259998, 12743, 134, 3, 70, "Text"],
 Cell[CellGroupData[{
-Cell[265006, 12669, 99, 2, 70, "Subsection",
-  Evaluatable->False],
-Cell[265108, 12673, 659, 18, 70, "Text",
-  Evaluatable->False],
-
+Cell[260157, 12750, 66, 1, 70, "Subsection"],
+Cell[260226, 12753, 513, 11, 70, "Text"],
 Cell[CellGroupData[{
-Cell[265790, 12693, 69, 1, 70, "Input"],
-Cell[265862, 12696, 386, 7, 70, "Info",
-  Evaluatable->False]
+Cell[260764, 12768, 33, 0, 70, "Input"],
+Cell[260800, 12770, 321, 7, 70, "Info"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[266280, 12705, 81, 1, 70, "Input"],
-Cell[266364, 12708, 76, 1, 70, "Input"]
+Cell[261158, 12782, 45, 0, 70, "Input"],
+Cell[261206, 12784, 40, 0, 70, "Input"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[266472, 12711, 83, 1, 70, "Input"],
-Cell[266558, 12714, 193, 9, 70, "Output",
-  Evaluatable->False]
+Cell[261283, 12789, 47, 0, 70, "Input"],
+Cell[261333, 12791, 144, 6, 70, "Output"]
 }, Open  ]],
-Cell[266763, 12725, 207, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[261492, 12800, 156, 3, 70, "Text"],
 Cell[CellGroupData[{
-Cell[266993, 12731, 75, 1, 70, "Input"],
-Cell[267071, 12734, 365, 12, 70, "Output",
-  Evaluatable->False]
+Cell[261673, 12807, 39, 0, 70, "Input"],
+Cell[261715, 12809, 316, 9, 70, "Output"]
 }, Open  ]],
-Cell[267448, 12748, 533, 14, 70, "Text",
-  Evaluatable->False],
-
+Cell[262046, 12821, 420, 9, 70, "Text"],
 Cell[CellGroupData[{
-Cell[268004, 12764, 71, 1, 70, "Input"],
-Cell[268078, 12767, 211, 4, 70, "Info",
-  Evaluatable->False]
+Cell[262491, 12834, 35, 0, 70, "Input"],
+Cell[262529, 12836, 156, 4, 70, "Info"]
 }, Open  ]],
-Cell[268301, 12773, 166, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[262700, 12843, 115, 3, 70, "Text"],
 Cell[CellGroupData[{
-Cell[268490, 12779, 80, 1, 70, "Input"],
-Cell[268573, 12782, 120, 6, 70, "Output",
-  Evaluatable->False]
+Cell[262840, 12850, 44, 0, 70, "Input"],
+Cell[262887, 12852, 72, 4, 70, "Output"]
 }, Open  ]],
-Cell[268705, 12790, 316, 6, 70, "Text",
-  Evaluatable->False],
-
+Cell[262974, 12859, 265, 5, 70, "Text"],
 Cell[CellGroupData[{
-Cell[269044, 12798, 152, 3, 70, "Input"],
-Cell[269199, 12803, 706, 22, 70, "Output",
-  Evaluatable->False]
+Cell[263264, 12868, 119, 4, 70, "Input"],
+Cell[263386, 12874, 657, 19, 70, "Output"]
 }, Open  ]],
-Cell[269917, 12827, 159, 4, 70, "Text",
-  Evaluatable->False],
-
+Cell[264058, 12896, 108, 3, 70, "Text"],
 Cell[CellGroupData[{
-Cell[270099, 12833, 98, 1, 70, "Input"],
-Cell[270200, 12836, 148, 4, 70, "Message",
-  Evaluatable->False],
-Cell[270351, 12842, 106, 6, 70, "Output",
-  Evaluatable->False]
+Cell[264191, 12903, 62, 0, 70, "Input"],
+Cell[264256, 12905, 93, 3, 70, "Message"],
+Cell[264352, 12910, 58, 4, 70, "Output"]
 }, Open  ]],
-
 Cell[CellGroupData[{
-Cell[270489, 12850, 89, 1, 70, "Input"],
-Cell[270581, 12853, 156, 4, 70, "Message",
-  Evaluatable->False],
-Cell[270740, 12859, 106, 6, 70, "Output",
-  Evaluatable->False]
+Cell[264447, 12919, 53, 0, 70, "Input"],
+Cell[264503, 12921, 102, 3, 70, "Message"],
+Cell[264608, 12926, 58, 4, 70, "Output"]
 }, Open  ]],
-Cell[270858, 12867, 233, 5, 70, "Text",
-  Evaluatable->False]
+Cell[264681, 12933, 182, 4, 70, "Text"]
 }, Open  ]]
 }, Closed]],
-
 Cell[CellGroupData[{
-Cell[271132, 12874, 115, 2, 70, "Section",
-  Evaluatable->False],
-
+Cell[264912, 12943, 57, 0, 70, "Section"],
 Cell[CellGroupData[{
-Cell[271270, 12878, 66, 1, 70, "Input"],
-Cell[271339, 12881, 361, 6, 70, "Info",
-  Evaluatable->False]
+Cell[264994, 12947, 30, 0, 70, "Input"],
+Cell[265027, 12949, 299, 7, 70, "Info"]
 }, Open  ]]
 }, Open  ]],
-Cell[271721, 12889, 119, 2, 70, "Text",
-  Evaluatable->False]
+Cell[265353, 12960, 61, 0, 70, "Text"]
 }
 ]
 *)
 
-
-
-
-(***********************************************************************
-End of Mathematica Notebook file.
-***********************************************************************)
